@@ -1,8 +1,18 @@
 use LWP::Simple;
 use strict;
 
-my $infile = "quality_mapping.txt";
-my $outfile = "quality_mapping_table.tsv";
+my $infile = "";
+my $outfile = "";
+
+
+if (@ARGV == 2) {
+	$infile = $ARGV[0];
+	$outfile = $ARGV[1];
+} else {
+	print "Usage: perl make_quality_table.pl <full path to mapping_quality.txt file> <output file name>\n";
+	print "This script converts Bowtie log file into tab-separate table.\n";
+	exit(0);
+};
 
 my $reads_processed = "";
 my $reads_aligned = "";
