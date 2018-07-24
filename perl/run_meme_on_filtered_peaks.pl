@@ -3,25 +3,23 @@
 use 5.010;
 use strict;
 use warnings;
-use Cwd qw();
+use Cwd 'abs_path';
 use File::Basename;
 use File::Spec::Functions 'catfile';
 
-my $cwd = Cwd::cwd();
-my $datadir = dirname($cwd);
-$datadir = catfile($datadir,"data");
+my $datadir = catfile(dirname(dirname(abs_path($0))),"data");
 my $infile = "";
 my $output_dir = "";
 my $genome_list_file = catfile($datadir,"genome_list.txt");
 
 my $genome_name = "";
-my $limit = -1; #obsolete
+my $limit = -1; # it is possible to limit number of peaks for motif search, but effect of this option was not tested
 my $enrichment_cutoff = 0;
 my $pvalue_cutoff = 0;
 my $qvalue_cutoff = 0;
 
 my $max_fragment_length = 12000;
-my $exclude_peaks_within_genes = 0; 
+my $exclude_peaks_within_genes = 0; # it is possible to exclude peaks within coding regions from motif search, but effect of this option was not tested
 #MEME parameters
 my @meme_cmd=('meme');
 my $mod = "anr";
@@ -80,8 +78,6 @@ if (($output_dir ne "")&&(!(-e $output_dir))) {
 	$output_dir = ".";
 };
 
-#$infile = $output_dir . "/" . $infile;
-
 open (INFILE, "$infile") or die ("Cannot open file $infile");
 while (my $line = <INFILE>) {
 	chomp $line;
@@ -102,6 +98,7 @@ close INFILE;
 
 my $outfile = catfile($output_dir,"peaks.fasta");
 open (OUTFILE, ">$outfile") or die ("Cannot open file $outfile");
+my $run_meme_flag = 0; 
 foreach my $qvalue (sort {$b <=> $a} keys %qvalue_peaks_HoA){
 	if ($limit == 0){
 		last;
@@ -109,6 +106,7 @@ foreach my $qvalue (sort {$b <=> $a} keys %qvalue_peaks_HoA){
 	foreach my $line (@{$qvalue_peaks_HoA{$qvalue}}){
 		$line = get_peak_sequence ($line);
 		if ($line) {
+			$run_meme_flag++;
 			$limit--;
 			print OUTFILE $line."\n";		
 		}
@@ -116,29 +114,31 @@ foreach my $qvalue (sort {$b <=> $a} keys %qvalue_peaks_HoA){
 }
 close OUTFILE;
 
-my $meme_outfile = $infile . "_motifs_$mod.txt";
+if ($run_meme_flag) {
+	my $meme_outfile = $infile . "_motifs_$mod.txt";
 
-push @meme_cmd, $outfile;
-push @meme_cmd, '-o';
-push @meme_cmd, $output_dir;
-push @meme_cmd, '-text';
-push @meme_cmd, '-dna';
-push @meme_cmd, '-mod';
-push @meme_cmd, $mod;
-push @meme_cmd, '-nmotifs';
-push @meme_cmd, $nmotifs;
-push @meme_cmd, '-minw';
-push @meme_cmd, $minw;
-push @meme_cmd, '-maxw';
-push @meme_cmd, $maxw;
-push @meme_cmd, '-revcomp';
-push @meme_cmd, '-pal';
-push @meme_cmd, '-maxsize 1000000';
-push @meme_cmd, '>' . $meme_outfile;
+	push @meme_cmd, $outfile;
+	push @meme_cmd, '-o';
+	push @meme_cmd, $output_dir;
+	push @meme_cmd, '-text';
+	push @meme_cmd, '-dna';
+	push @meme_cmd, '-mod';
+	push @meme_cmd, $mod;
+	push @meme_cmd, '-nmotifs';
+	push @meme_cmd, $nmotifs;
+	push @meme_cmd, '-minw';
+	push @meme_cmd, $minw;
+	push @meme_cmd, '-maxw';
+	push @meme_cmd, $maxw;
+	push @meme_cmd, '-revcomp';
+	push @meme_cmd, '-pal';
+	push @meme_cmd, '-maxsize 1000000';
+	push @meme_cmd, '>' . $meme_outfile;
 
-print join(" ", @meme_cmd);
+	print join(" ", @meme_cmd);
 
-system (join(" ", @meme_cmd));
+	system (join(" ", @meme_cmd));
+}
 exit(0);
 
 #######################
@@ -158,6 +158,7 @@ sub read_genome_list{
 			next;
 		}
 		my (undef, $genome, $filepath) = split(/\t/, $line);
+		$filepath = catfile($datadir,$filepath);
 		if (exists $genomes_list{$genome}){
 			push @{$genomes_list{$genome}}, $filepath;
 		} else {

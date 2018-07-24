@@ -27,7 +27,7 @@ if (@ARGV == 4) {
 
 
 my $genome_library_file = catfile($datadir,"libs.tsv");
-my $gbk_list = catfile($datadir,"genome_list.txt");
+#my $gbk_list = catfile($datadir,"genome_list.txt");
 my $macs_script = "run_macs_meme.sh";
 my $log_file = catfile($work_dir, "log.txt");
 
@@ -156,8 +156,7 @@ sub process_bam_file {
 		print OUTFILE " --extsize " . $extsize;
 	}
 	print OUTFILE " --nomodel --keep-dup=" . $keepdup . "\n";
-#	print OUTFILE "perl /mnt/data2/DAP-seq/scripts/run_meme_on_peaks_v3.pl " . $output_dir . "/" . $sample . "_vs_" . $samples_directory{$sample}{"control"} . "_peaks.xls " . $output_dir . " \"" . $samples_directory{$sample}{"genome"} . "\" -1\n";
-	print OUTFILE "perl /mnt/data2/DAP-seq/scripts/run_meme_on_filtered_peaks.pl " . $output_dir . "/" . $sample . "_vs_" . $samples_directory{$sample}{"control"} . "_peaks.xls " . $output_dir . " \"" . $samples_directory{$sample}{"genome"} . "\" " . $enrichment_cutoff . " " . $pvalue_cutoff . " " . $qvalue_cutoff . "\n";
+	print OUTFILE "perl " . dirname(abs_path($0)) . "/run_meme_on_filtered_peaks.pl " . $output_dir . "/" . $sample . "_vs_" . $samples_directory{$sample}{"control"} . "_peaks.xls " . $output_dir . " \"" . $samples_directory{$sample}{"genome"} . "\" " . $enrichment_cutoff . " " . $pvalue_cutoff . " " . $qvalue_cutoff . "\n";
 	print OUTFILE "#######################################################\n";
 	return 1;
 }

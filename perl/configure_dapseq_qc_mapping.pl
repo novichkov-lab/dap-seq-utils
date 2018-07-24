@@ -63,9 +63,6 @@ my %samples_directory = ();
 read_directory($directory_file);
 
 
-#my @samples = ();
-#my @control_samples = ();
-
 unless (-e $fastq_dir) {
 	print "Directory $fastq_dir does not exist!\n";
 	exit(1);

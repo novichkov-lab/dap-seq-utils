@@ -1,0 +1,8 @@
+#accession	genome	path	type
+NC_019936.1	P. stutzeri RCH2	rch2/NC_019936.gbk	chr
+NC_019937.1	P. stutzeri RCH2	rch2/NC_019937.gbk	plasmid
+NC_019938.1	P. stutzeri RCH2	rch2/NC_019938.gbk	plasmid
+NC_019939.1	P. stutzeri RCH2	rch2/NC_019939.gbk	plasmid
+NZ_CP015225.1	P. fluorescens N2E2	n2e2/NZ_CP015225.gbk	chr
+NZ_CP015225.1	Pseudomonas fluorescens FW300-N2E2	n2e2/NZ_CP015225.gbk	chr
+NC_002947.4	P. putida KT2440	kt2440/NC_002947.gb	chr

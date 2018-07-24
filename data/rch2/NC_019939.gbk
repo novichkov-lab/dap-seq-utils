@@ -1,0 +1,219 @@
+LOCUS       NC_019939               2804 bp    DNA     circular CON 14-AUG-2015
+DEFINITION  Pseudomonas stutzeri RCH2 plasmid pPSEST03, complete sequence.
+ACCESSION   NC_019939
+VERSION     NC_019939.1  GI:431929441
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02232046
+            Assembly: GCF_000327065.1
+KEYWORDS    GSC:MIGS:2.1; RefSeq.
+SOURCE      Pseudomonas stutzeri RCH2
+  ORGANISM  Pseudomonas stutzeri RCH2
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (bases 1 to 2804)
+  AUTHORS   Lucas,S., Han,J., Lapidus,A., Cheng,J.-F., Goodwin,L., Pitluck,S.,
+            Peters,L., Ovchinnikova,G., Zeytun,A., Lu,M., Detter,J.C., Han,C.,
+            Tapia,R., Land,M., Hauser,L., Kyrpides,N., Ivanova,N., Pagani,I.,
+            Chakraborty,R., Arkin,A., Dehal,P., Wall,J., Hazen,T. and Woyke,T.
+  CONSRTM   US DOE Joint Genome Institute
+  TITLE     Complete sequence of plasmid 3 of Pseudomonas stutzeri RCH2
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2804)
+  AUTHORS   Lucas,S., Han,J., Lapidus,A., Cheng,J.-F., Goodwin,L., Pitluck,S.,
+            Peters,L., Ovchinnikova,G., Zeytun,A., Lu,M., Detter,J.C., Han,C.,
+            Tapia,R., Land,M., Hauser,L., Kyrpides,N., Ivanova,N., Pagani,I.,
+            Chakraborty,R., Arkin,A., Dehal,P., Wall,J., Hazen,T. and Woyke,T.
+  CONSRTM   US DOE Joint Genome Institute
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-OCT-2011) US DOE Joint Genome Institute, 2800
+            Mitchell Drive B310, Walnut Creek, CA 94598-1698, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            CP003074.
+            URL -- http://www.jgi.doe.gov
+            JGI Project ID: 4087481
+            Source DNA and organism available from Terry C. Hazen
+            (TCHazen@lbl.gov)
+            Contacts: Terry C. Hazen (TCHazen@lbl.gov)
+                      Tanja Woyke (microbe@cuba.jgi-psf.org)
+            Annotation done by JGI-ORNL and JGI-PGF
+            Finishing done by JGI-LANL
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. it is our intention to publish the work of this
+            project in a timely fashion and we welcome collaborative
+            interaction on the project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: http://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##MIGS-Data-START##
+            investigation_type  :: bacteria_archaea
+            project_name        :: Pseudomonas stutzeri RCH2
+            collection_date     :: Missing
+            lat_lon             :: Missing
+            depth               :: Missing
+            alt_elev            :: Missing
+            country             :: Missing
+            environment         :: Host, Rice roots, Soil
+            num_replicons       :: 4
+            ref_biomaterial     :: Missing
+            biotic_relationship :: Free living
+            trophic_level       :: Heterotroph
+            rel_to_oxygen       :: Aerobe
+            isol_growth_condt   :: Missing
+            sequencing_meth     :: WGS
+            assembly            :: Newbler v. 2.3 (pre-release)
+            finishing_strategy  :: Finished
+            GOLD Stamp ID       :: Gi04345
+            Funding Program     :: DOE-GTL 2007
+            Gene Calling Method :: GenePrimp, Prodigal 1.4
+            Cell Shape          :: Rod-shaped
+            Motility            :: Motile
+            Sporulation         :: Nonsporulating
+            Temperature Range   :: Mesophile
+            Gram Staining       :: Gram-
+            Diseases            :: None
+            Phenotypes          :: Non-Pathogen
+            ##MIGS-Data-END##
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: Finished
+            Current Finishing Status :: Finished
+            Assembly Method          :: Newbler v. 2.3
+            Genome Coverage          :: 30x
+            Sequencing Technology    :: 454/Illumina
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider                    :: NCBI
+            Annotation Date                        :: 08/14/2015 01:34:01
+            Annotation Pipeline                    :: NCBI Prokaryotic Genome
+                                                      Annotation Pipeline
+            Annotation Method                      :: Best-placed reference
+                                                      protein set; GeneMarkS+
+            Annotation Software revision           :: 3.0
+            Features Annotated                     :: Gene; CDS; rRNA; tRNA;
+                                                      ncRNA; repeat_region
+            Genes                                  :: 4,301
+            CDS                                    :: 4,191
+            Pseudo Genes                           :: 35
+            rRNAs                                  :: 4, 4, 4 (5S, 16S, 23S)
+            complete rRNAs                         :: 4, 4, 4 (5S, 16S, 23S)
+            tRNAs                                  :: 60
+            ncRNA                                  :: 2
+            Frameshifted Genes                     :: 20
+            Frameshifted Genes On Monomer Runs     :: 3
+            Frameshifted Genes Not On Monomer Runs :: 1
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2804
+                     /organism="Pseudomonas stutzeri RCH2"
+                     /mol_type="genomic DNA"
+                     /strain="RCH2"
+                     /isolation_source="not provided; submitted under MIGS 2.1"
+                     /db_xref="taxon:644801"
+                     /plasmid="pPSEST03"
+     gene            complement(303..632)
+                     /locus_tag="PSEST_RS21520"
+                     /old_locus_tag="Psest_4414"
+     CDS             complement(303..632)
+                     /locus_tag="PSEST_RS21520"
+                     /old_locus_tag="Psest_4414"
+                     /inference="COORDINATES: ab initio prediction:GeneMarkS+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_015279027.1"
+                     /db_xref="GI:505091925"
+                     /translation="MNEKEPVTRYNRSVNLDPQMAERLQRVCEHLGVTVNSYLKLKIG
+                     EVVSRDEVSLIPKQSADASAAILERFFQAASSAIEAAPNVGEEQLELEVDEQPQPVRK
+                     PRAAKAK"
+     gene            complement(1111..1392)
+                     /locus_tag="PSEST_RS21525"
+     CDS             complement(1111..1392)
+                     /locus_tag="PSEST_RS21525"
+                     /inference="COORDINATES: ab initio prediction:GeneMarkS+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_041757285.1"
+                     /db_xref="GI:754124345"
+                     /translation="MAKPYPILPASVLDELEDLNGALGAYDVLMTAWINQTLTEGPAG
+                     DPKHFAAGCQFLLRPILEGFQAIESHATAFREMGVVGVCTLDEADQEKP"
+     gene            complement(1481..2482)
+                     /locus_tag="PSEST_RS21530"
+                     /old_locus_tag="Psest_4416"
+     CDS             complement(1481..2482)
+                     /locus_tag="PSEST_RS21530"
+                     /old_locus_tag="Psest_4416"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_001990871.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_041757287.1"
+                     /db_xref="GI:754124348"
+                     /translation="MVEVRHTEGLPANYRNLATCGSVWACPVCAAKIQERRRLELEHL
+                     VEWAEGQGLQAIMVTFTFPHTGFDSLGDLLERQADAFKRFRRGSPFTKLKASIGFQGL
+                     VRSLEVTHGLANGWHPHTHELWLVDPKMGQEIRARLVELWERACIAAGLLDPADQAKV
+                     HAFRQHSVDVRLNATSGEYLAKQDSSRKWGITHEVAKATSKAGKAKGVHPHEFLIRMA
+                     KGDESRYFEYLEAMKGKRQLFWSPGLKARCGLDDISDDDAALGGDDLDHLGNLNQDEW
+                     DFIRRRRLAAQVLDAAELGGFDLILRYLKRQGYKPPDFGTTSADQDEHRYPGLAPFS"
+ORIGIN      
+        1 tagtggatgt gcccttaaaa agcccctatc tcgccgccaa gctgaagggg ctttttcttt
+       61 ggtgtcagtg tctggtggtc atatctggtt gttccgctcc tggagcgatc tggaggaaat
+      121 gccgggccag atcactggca gcacccccga tcccctcttc gctggcctga cgcaaagaca
+      181 ggtagctagc accgcaatgg gggcagtacc ccgtcaccaa caaggcgagc ggctcacccc
+      241 acggaatagc gtgggcggtg tgccagcggt cgcacttggt gcactggtgc ctgatccgaa
+      301 gatcacttgg ctttagccgc acggggcttc ctgactggtt gcggttgctc atcaacttcc
+      361 aactccaatt gctcttcgcc gacgttcggc gcggcctcga tagccgagct ggcagcctgg
+      421 aagaagcgtt ccaggatggc agcgctggcg tcggcggact gctttgggat gagcgacacc
+      481 tcatcacgcg agaccacctc accaatcttc agcttgaggt acgagttcac tgtaacgccc
+      541 aggtgctcac agacacgctg gagtctttcc gccatctgcg gatcaaggtt cacagacctg
+      601 ttgtaacgag ttacgggctc tttttcattc atcgtcgtcg ttctcaaacg tagtcgtata
+      661 tacacgccct gtacgcaata tatgcgtgga gcatgggcaa gcgcaagaaa aggcttgcgg
+      721 ctgactcggt gggcttcgcg acgctcagca catccgaggc agcctcaagc cttgaaaagc
+      781 ggttatcagg gcgcggactg ccatcggtgt tggttgctgg tggggctgtt cgcggacgag
+      841 caaagcagcc gcccatgagg ccgaaggggg cgcgatgttg gcttgggtta gggccgctgc
+      901 gcgggtaccg gcgcagggag gggagaggct gtcaggtgag gaagtgcagg cgcctaatcg
+      961 ccacggtgtg gcgaggtcga ggtcgtatgg tcgtaacgtt gtaggaatcg ggcagttgta
+     1021 gccctggacg ggcaagataa gggccaccgg tacagtcgta ggcgctgctg cgcagcatcc
+     1081 cccgaccgcc ccggtggctt tatcgtaacg ttacggtttt tcctggtcgg cttcgtccaa
+     1141 cgtgcagacc cctacgacac ccatctcgcg aaaggccgtg gcatgggatt cgatggcctg
+     1201 gaagccttcg aggatgggcc gaagcagaaa ctggcaaccc gccgcgaagt gcttgggatc
+     1261 accggcaggg ccttcggtga gggtctgatt gatccaggca gtcatgagga cgtcataggc
+     1321 accaagtgcg ccgttgaggt cttccagctc gtccaggacg gaggcgggca ggataggata
+     1381 tggcttagcc atggtgtgtc tcctcgatag atcactgtgg ttagctggtc acctggagtg
+     1441 caatccaggt ggtcagcgat tttcagtaac gccccatgcg ttacgaaaat ggtgccaaac
+     1501 cagggtatcg atgctcgtcc tggtcggcgg aagtggtacc aaaatccggg ggcttgtacc
+     1561 cctggcgttt caggtagcgc aggatcaggt caaagccgcc gagttcagca gcatcgagca
+     1621 cctgagcagc caggcgccgt ctcctgatga aatcccattc gtcctggttg aggttgccca
+     1681 ggtggtcgag atcatcacca ccgagcgcgg cgtcgtcgtc gctgatgtca tccaagccgc
+     1741 agcgggcctt gaggccaggc gaccagaaca gttgccgctt gcccttcatc gcttccaggt
+     1801 actcgaagta acgcgactcg tcgcccttgg ccatgcggat caggaactca tgcggatgga
+     1861 cgcccttggc cttgcctgcc ttgctggtgg ccttggctac ttcgtgggtg atgccccact
+     1921 tcctggagct gtcctgcttg gcgaggtact cgccgctggt ggcgttcagc cgcacgtcta
+     1981 cggagtgctg gcggaaggcg tgaaccttgg cctggtcggc aggatcgagg aggccggcag
+     2041 cgatgcaggc acgttcccac agctcgacca ggcgtgcacg gatttcctgg cccatcttgg
+     2101 gatctacgag ccacagctcg tgggtgtgag ggtgccagcc gttggcgagg ccgtgggtca
+     2161 cttccaggga gcgaacgagg ccctggaagc cgatggaggc cttgagcttg gtgaaggggc
+     2221 tgccacggcg gaaacgcttg aaggcgtcgg cttggcgctc caggaggtcg cccagggagt
+     2281 cgaaaccggt gtgggggaag gtgaacgtaa ccatgatcgc ctggaggccc tgaccctctg
+     2341 cccattcgac caggtgctcc agttccagcc ggcgacgctc ctggatcttg gcagcacaga
+     2401 ccgggcaagc ccaaacactg ccgcaggtgg ccaggttgcg atagttggcc ggcaggccct
+     2461 cggtgtgcct gacctcgacc atgcaactgg ttcggacgtg gcggcagtcg aaggtgcgga
+     2521 acacctcgcc aggaaactgg acgtcaggga gcatcacgtt gacccggcga ccgatccaga
+     2581 cacgggcctg atgcagggcc tggaagcgct gcgcgcgtgc ttccctggca ccgatttcgc
+     2641 gggagggggg gggagaggat ttcgcagtta taccaagagg cccacccgcg gggccctccc
+     2701 gcaagcggga gccctccccc ggctgtgcct gctggaaccc gctgggagct cctgtccgcc
+     2761 cgtttaccgg gtcttcgatg atgctatgat gcacagtacg tccc
+//

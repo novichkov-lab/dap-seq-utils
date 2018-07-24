@@ -1,0 +1,5 @@
+#name	bowtie_lib	size	fitgenomics_genes	fitgenomics_orgId	img_genes	operons_data	replicons
+P. stutzeri RCH2	rch2/rch2	4.6e6	rch2/fitgenomics.tsv	psRCH2	rch2/RCH2_genes.tsv	rch2/operons.tsv	rch2/replicons.tsv
+P. fluorescens N2E2	n2e2/n2e2	6.9e6	n2e2/fitgenomics.tsv	pseudo6_N2E2	n2e2/N2E2_genes.tsv	n2e2/operons.tsv	n2e2/replicons.tsv
+Pseudomonas fluorescens strain FW300-N2E2	n2e2/n2e2	6.9e6	n2e2/fitgenomics.tsv	pseudo6_N2E2		n2e2/operons.tsv	n2e2/replicons.tsv
+P. putida KT2440	kt2440/kt2440	6.2e6	kt2440/fitgenomics.tsv	Putida	kt2440/KT2440_genes.tsv	kt2440/operons.tsv	kt2440/replicons.tsv
