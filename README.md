@@ -48,7 +48,7 @@ RCH2, Pseudomonas fluorescens FW300-N2E2 and Pseudomonas putida KT2440.
 To build Bowtie indices for these reference genomes, execute script 
 build_bowtie_indices.sh before running the pipeline.
 
-If you want to run the pipeline for other organisms, read [AddReference] first.
+If you want to run the pipeline for other organisms, read [how to add new reference genome](AddReference.md) first.
  
 
 ## Input files

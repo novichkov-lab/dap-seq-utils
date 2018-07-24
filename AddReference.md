@@ -34,7 +34,7 @@ See list of available orgenisms [here](http://fit.genomics.lbl.gov/cgi-bin/orgAl
       3. relative path to GenBank file.
       4. "chr" for chromosomes or "plasmid" for plasmids
 
-## What if you organism is missing from Fitness Browser
+## What if your organism is missing from Fitness Browser
 
 Create empty file for list of genes from Fitness Browser. Leave blank the field for 
 name of organism in Fitness Browser. You will still be able to run preprocessing,
