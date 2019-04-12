@@ -1,0 +1,831 @@
+Operon number	Sequence	Start	Stop	Strand	Number of Genes	Genes_1	Genes_2	Genes_3	Genes_4	Genes_5	Genes_6	Genes_7	Genes_8	Genes_9	Genes_10	Genes_11	Genes_12	Genes_13	Genes_14	Genes_15	Genes_15	Genes_16
+operon 1	NC_019936.1	661	6783	+	4	Psest_0002	Psest_0003	Psest_0004	Psest_0005													
+operon 2	NC_019936.1	8642	14354	-	5	Psest_0007	Psest_0008	Psest_0009	Psest_0010	Psest_0011												
+operon 3	NC_019936.1	15128	16308	+	2	Psest_0013	Psest_0014															
+operon 4	NC_019936.1	16798	18946	-	3	Psest_0016	Psest_0017	Psest_0018														
+operon 5	NC_019936.1	20255	24528	-	4	Psest_0020	Psest_0021	Psest_0022	Psest_0023													
+operon 6	NC_019936.1	30553	31485	-	2	Psest_0030	Psest_0031															
+operon 7	NC_019936.1	33359	36939	+	2	Psest_0034	Psest_0035															
+operon 8	NC_019936.1	58774	60392	-	2	Psest_0057	Psest_0058															
+operon 9	NC_019936.1	60782	61338	+	2	Psest_0059	Psest_0060															
+operon 10	NC_019936.1	61962	63979	-	2	Psest_0062	Psest_0063															
+operon 11	NC_019936.1	70720	73112	+	2	Psest_0070	Psest_0071															
+operon 12	NC_019936.1	73209	76377	+	3	Psest_0072	Psest_0073	Psest_0074														
+operon 13	NC_019936.1	78457	79899	-	2	Psest_0077	Psest_0078															
+operon 14	NC_019936.1	81839	83738	+	2	Psest_0081	Psest_0082															
+operon 15	NC_019936.1	84675	87103	-	2	Psest_0083	Psest_0084															
+operon 16	NC_019936.1	88546	89285	+	2	Psest_0086	Psest_0087															
+operon 17	NC_019936.1	89559	99257	-	12	Psest_0088	Psest_0089	Psest_0090	Psest_0091	Psest_0092	Psest_0093	Psest_0094	Psest_0095	Psest_0096	Psest_0097	Psest_0098	Psest_0099					
+operon 18	NC_019936.1	101350	107451	+	7	Psest_0102	Psest_0103	Psest_0104	Psest_0105	Psest_0106	Psest_0107	Psest_0108										
+operon 19	NC_019936.1	107576	108768	+	2	Psest_0109	Psest_0110															
+operon 20	NC_019936.1	111773	112980	-	2	Psest_0113	Psest_0114															
+operon 21	NC_019936.1	113172	115534	+	4	Psest_0115	Psest_0116	Psest_0117	Psest_0118													
+operon 22	NC_019936.1	115976	127400	-	8	Psest_0120	Psest_0121	Psest_0122	Psest_0123	Psest_0124	Psest_0125	Psest_0126	Psest_0127									
+operon 23	NC_019936.1	127453	134370	-	7	Psest_0128	Psest_0129	Psest_0130	Psest_0131	Psest_0132	Psest_0133	Psest_0134										
+operon 24	NC_019936.1	135761	138751	-	4	Psest_0136	Psest_0137	Psest_0138	Psest_0139													
+operon 25	NC_019936.1	143043	146601	-	3	Psest_0144	Psest_0145	Psest_0146														
+operon 26	NC_019936.1	147280	150301	-	3	Psest_0148	Psest_0149	Psest_0150														
+operon 27	NC_019936.1	152099	154371	+	4	Psest_0152	Psest_0153	Psest_0154	Psest_0155													
+operon 28	NC_019936.1	154470	156076	+	2	Psest_0156	Psest_0157															
+operon 29	NC_019936.1	157057	159170	-	2	Psest_0159	Psest_0160															
+operon 30	NC_019936.1	162307	162977	+	2	Psest_0163	Psest_0164															
+operon 31	NC_019936.1	166834	167354	-	2	Psest_0172	Psest_0173															
+operon 32	NC_019936.1	167484	172301	+	5	Psest_0174	Psest_0175	Psest_0176	Psest_0177	Psest_0178												
+operon 33	NC_019936.1	175363	176887	+	2	Psest_0181	Psest_0182															
+operon 34	NC_019936.1	181742	185142	+	3	Psest_0186	Psest_0187	Psest_0188														
+operon 35	NC_019936.1	186046	189602	-	3	Psest_0190	Psest_0191	Psest_0192														
+operon 36	NC_019936.1	202804	204868	-	2	Psest_0203	Psest_0204															
+operon 37	NC_019936.1	205051	210383	+	5	Psest_0205	Psest_0206	Psest_0207	Psest_0208	Psest_0209												
+operon 38	NC_019936.1	213329	222091	+	3	Psest_0212	Psest_0213	Psest_0214														
+operon 39	NC_019936.1	226768	230742	+	2	Psest_0220	Psest_0221															
+operon 40	NC_019936.1	234613	237373	-	2	Psest_0226	Psest_0227															
+operon 41	NC_019936.1	238670	239983	+	2	Psest_0229	Psest_0230															
+operon 42	NC_019936.1	252880	254864	-	2	Psest_0242	Psest_0243															
+operon 43	NC_019936.1	255560	259128	-	3	Psest_0245	Psest_0246	Psest_0247														
+operon 44	NC_019936.1	260078	267283	+	4	Psest_0249	Psest_0250	Psest_0251	Psest_0252													
+operon 45	NC_019936.1	268849	272349	-	3	Psest_0255	Psest_0256	Psest_0257														
+operon 46	NC_019936.1	272579	275543	+	3	Psest_0258	Psest_0259	Psest_0260														
+operon 47	NC_019936.1	282659	283728	+	2	Psest_0266	Psest_0267															
+operon 48	NC_019936.1	286128	289397	-	3	Psest_0270	Psest_0271	Psest_0272														
+operon 49	NC_019936.1	291463	295782	-	6	Psest_0275	Psest_0276	Psest_0277	Psest_0278	Psest_0279	Psest_0280											
+operon 50	NC_019936.1	298149	300273	-	3	Psest_0282	Psest_0283	Psest_0284														
+operon 51	NC_019936.1	302576	304623	-	2	Psest_0287	Psest_0288															
+operon 52	NC_019936.1	305220	309097	-	5	Psest_0290	Psest_0291	Psest_0292	Psest_0293	Psest_0294												
+operon 53	NC_019936.1	312800	324525	+	5	Psest_0300	Psest_0301	Psest_0302	Psest_0303	Psest_0304												
+operon 54	NC_019936.1	326922	328077	+	2	Psest_0307	Psest_0308															
+operon 55	NC_019936.1	328340	334055	+	3	Psest_0309	Psest_0310	Psest_0311														
+operon 56	NC_019936.1	336203	338625	-	2	Psest_0313	Psest_0314															
+operon 57	NC_019936.1	343620	345317	+	2	Psest_0320	Psest_0321															
+operon 58	NC_019936.1	345931	348125	-	2	Psest_0323	Psest_0324															
+operon 59	NC_019936.1	348220	349715	-	2	Psest_0325	Psest_0326															
+operon 60	NC_019936.1	349860	352891	+	2	Psest_0327	Psest_0328															
+operon 61	NC_019936.1	352999	355252	+	2	Psest_0329	Psest_0330															
+operon 62	NC_019936.1	355389	355938	+	2	Psest_0331	Psest_0332															
+operon 63	NC_019936.1	358734	359578	+	2	Psest_0336	Psest_0337															
+operon 64	NC_019936.1	369964	372000	+	2	Psest_0346	Psest_0347															
+operon 65	NC_019936.1	372795	375433	-	2	Psest_0349	Psest_0350															
+operon 66	NC_019936.1	375615	378842	-	3	Psest_0351	Psest_0352	Psest_0353														
+operon 67	NC_019936.1	383075	385443	+	2	Psest_0357	Psest_0358															
+operon 68	NC_019936.1	387496	389303	-	2	Psest_0361	Psest_0362															
+operon 69	NC_019936.1	389362	391302	-	2	Psest_0363	Psest_0364															
+operon 70	NC_019936.1	392537	393551	-	2	Psest_0366	Psest_0367															
+operon 71	NC_019936.1	396146	400639	-	4	Psest_0370	Psest_0371	Psest_0372	Psest_0373													
+operon 72	NC_019936.1	408821	413139	+	4	Psest_0380	Psest_0381	Psest_0382	Psest_0383													
+operon 73	NC_019936.1	414833	417464	-	3	Psest_0385	Psest_0386	Psest_0387														
+operon 74	NC_019936.1	417653	417975	+	2	Psest_0388	Psest_0389															
+operon 75	NC_019936.1	419764	425885	+	4	Psest_0392	Psest_0393	Psest_0394	Psest_0395													
+operon 76	NC_019936.1	425924	430765	-	2	Psest_0396	Psest_0397															
+operon 77	NC_019936.1	435730	441661	+	5	Psest_0401	Psest_0402	Psest_0403	Psest_0404	Psest_0405												
+operon 78	NC_019936.1	444755	446505	-	2	Psest_0409	Psest_0410															
+operon 79	NC_019936.1	447762	451133	+	4	Psest_0412	Psest_0413	Psest_0414	Psest_0415													
+operon 80	NC_019936.1	457937	462975	+	3	Psest_0422	Psest_0423	Psest_0424														
+operon 81	NC_019936.1	464394	465544	-	2	Psest_0426	Psest_0427															
+operon 82	NC_019936.1	466298	470703	+	5	Psest_0428	Psest_0429	Psest_0430	Psest_0431	Psest_0432												
+operon 83	NC_019936.1	471134	472134	-	2	Psest_0434	Psest_0435															
+operon 84	NC_019936.1	473192	479055	+	2	Psest_0438	Psest_0439															
+operon 85	NC_019936.1	479737	483178	-	2	Psest_0441	Psest_0442															
+operon 86	NC_019936.1	488237	492910	-	2	Psest_0447	Psest_0448															
+operon 87	NC_019936.1	493176	511458	+	15	Psest_0449	Psest_0450	Psest_0451	Psest_0452	Psest_0453	Psest_0454	Psest_0455	Psest_0456	Psest_0457	Psest_0458	Psest_0459	Psest_0460	Psest_0461	Psest_0462	Psest_0463		
+operon 88	NC_019936.1	514336	518447	+	3	Psest_0467	Psest_0468	Psest_0469														
+operon 89	NC_019936.1	519984	523329	-	4	Psest_0471	Psest_0472	Psest_0473	Psest_0474													
+operon 90	NC_019936.1	529637	530697	+	2	Psest_0479	Psest_0480															
+operon 91	NC_019936.1	531833	538234	+	5	Psest_0482	Psest_0483	Psest_0484	Psest_0485	Psest_0486												
+operon 92	NC_019936.1	547623	549349	-	2	Psest_0493	Psest_0494															
+operon 93	NC_019936.1	551076	552917	+	2	Psest_0496	Psest_0497															
+operon 94	NC_019936.1	554082	555459	+	2	Psest_0499	Psest_0500															
+operon 95	NC_019936.1	555646	558513	-	3	Psest_0501	Psest_0502	Psest_0503														
+operon 96	NC_019936.1	558739	560412	+	3	Psest_0504	Psest_0505	Psest_0506														
+operon 97	NC_019936.1	561976	571007	+	9	Psest_0508	Psest_0509	Psest_0510	Psest_0511	Psest_0512	Psest_0513	Psest_0514	Psest_0515	Psest_0516								
+operon 98	NC_019936.1	571074	572981	+	3	Psest_0517	Psest_0518	Psest_0519														
+operon 99	NC_019936.1	573615	575134	-	2	Psest_0521	Psest_0522															
+operon 100	NC_019936.1	575228	579549	-	3	Psest_0523	Psest_0524	Psest_0525														
+operon 101	NC_019936.1	582835	587235	-	5	Psest_0529	Psest_0530	Psest_0531	Psest_0532	Psest_0533												
+operon 102	NC_019936.1	587353	590774	-	4	Psest_0534	Psest_0535	Psest_0536	Psest_0537													
+operon 103	NC_019936.1	599707	602818	-	5	Psest_0544	Psest_0545	Psest_0546	Psest_0547	Psest_0548												
+operon 104	NC_019936.1	606943	609666	-	2	Psest_0554	Psest_0555															
+operon 105	NC_019936.1	612910	614079	-	3	Psest_0558	Psest_0559	Psest_0560														
+operon 106	NC_019936.1	619768	623263	-	3	Psest_0564	Psest_0565	Psest_0566														
+operon 107	NC_019936.1	627631	628963	-	2	Psest_0573	Psest_0574															
+operon 108	NC_019936.1	633488	637451	+	4	Psest_0583	Psest_0584	Psest_0585	Psest_0586													
+operon 109	NC_019936.1	643575	644436	-	3	Psest_0592	Psest_0593	Psest_0594														
+operon 110	NC_019936.1	644579	650794	-	4	Psest_0595	Psest_0596	Psest_0597	Psest_0598													
+operon 111	NC_019936.1	659041	659657	+	2	Psest_0608	Psest_0609															
+operon 112	NC_019936.1	659568	661612	-	2	Psest_0610	Psest_0611															
+operon 113	NC_019936.1	663653	669942	+	4	Psest_0613	Psest_0614	Psest_0615	Psest_0616													
+operon 114	NC_019936.1	672423	674000	-	3	Psest_0620	Psest_0621	Psest_0622														
+operon 115	NC_019936.1	676521	679356	+	2	Psest_0626	Psest_0627															
+operon 116	NC_019936.1	682953	689402	-	4	Psest_0631	Psest_0632	Psest_0633	Psest_0634													
+operon 117	NC_019936.1	697434	698563	-	2	Psest_0642	Psest_0643															
+operon 118	NC_019936.1	698702	705841	-	6	Psest_0644	Psest_0645	Psest_0646	Psest_0647	Psest_0648	Psest_0649											
+operon 119	NC_019936.1	706038	709952	-	3	Psest_0650	Psest_0651	Psest_0652														
+operon 120	NC_019936.1	710106	718175	-	8	Psest_0653	Psest_0654	Psest_0655	Psest_0656	Psest_0657	Psest_0658	Psest_0659	Psest_0660									
+operon 121	NC_019936.1	718437	721146	+	2	Psest_0661	Psest_0662															
+operon 122	NC_019936.1	727890	731624	-	3	Psest_0668	Psest_0669	Psest_0670														
+operon 123	NC_019936.1	736306	737227	+	2	Psest_0674	Psest_0675															
+operon 124	NC_019936.1	740345	746654	+	5	Psest_0678	Psest_0679	Psest_0680	Psest_0681	Psest_0682												
+operon 125	NC_019936.1	746747	750457	+	4	Psest_0683	Psest_0684	Psest_0685	Psest_0686													
+operon 126	NC_019936.1	750741	753313	+	2	Psest_0687	Psest_0688															
+operon 127	NC_019936.1	753965	757218	+	2	Psest_0691	Psest_0692															
+operon 128	NC_019936.1	759736	761807	+	4	Psest_0694	Psest_0695	Psest_0696	Psest_0697													
+operon 129	NC_019936.1	775355	777170	-	2	Psest_0706	Psest_0707															
+operon 130	NC_019936.1	778325	780186	+	2	Psest_0709	Psest_0710															
+operon 131	NC_019936.1	794696	796100	+	2	Psest_0725	Psest_0726															
+operon 132	NC_019936.1	801780	807377	-	3	Psest_0732	Psest_0733	Psest_0734														
+operon 133	NC_019936.1	810255	813090	-	2	Psest_0737	Psest_0738															
+operon 134	NC_019936.1	818316	820576	-	3	Psest_0746	Psest_0747	Psest_0748														
+operon 135	NC_019936.1	822152	824422	-	2	Psest_0751	Psest_0752															
+operon 136	NC_019936.1	828282	829478	-	2	Psest_0758	Psest_0759															
+operon 137	NC_019936.1	830194	833062	-	3	Psest_0761	Psest_0762	Psest_0763														
+operon 138	NC_019936.1	841365	843891	-	2	Psest_0773	Psest_0774															
+operon 139	NC_019936.1	844182	846339	+	2	Psest_0775	Psest_0776															
+operon 140	NC_019936.1	846344	847639	-	2	Psest_0777	Psest_0778															
+operon 141	NC_019936.1	847835	849387	-	2	Psest_0779	Psest_0780															
+operon 142	NC_019936.1	862381	863243	+	2	Psest_0789	Psest_0790															
+operon 143	NC_019936.1	869216	872874	+	4	Psest_0794	Psest_0795	Psest_0796	Psest_0797													
+operon 144	NC_019936.1	877892	884009	-	6	Psest_0803	Psest_0804	Psest_0805	Psest_0806	Psest_0807	Psest_0808											
+operon 145	NC_019936.1	884254	886592	-	2	Psest_0809	Psest_0810															
+operon 146	NC_019936.1	888014	889649	-	3	Psest_0812	Psest_0813	Psest_0814														
+operon 147	NC_019936.1	892400	893446	+	2	Psest_0817	Psest_0818															
+operon 148	NC_019936.1	893593	897325	+	7	Psest_0819	Psest_0820	Psest_0821	Psest_0822	Psest_0823	Psest_0824	Psest_0825										
+operon 149	NC_019936.1	897578	899487	+	2	Psest_0826	Psest_0827															
+operon 150	NC_019936.1	902892	904126	-	2	Psest_0831	Psest_0832															
+operon 151	NC_019936.1	906277	908665	+	3	Psest_0835	Psest_0836	Psest_0837														
+operon 152	NC_019936.1	910238	913178	+	3	Psest_0840	Psest_0841	Psest_0842														
+operon 153	NC_019936.1	913228	916346	-	4	Psest_0843	Psest_0844	Psest_0845	Psest_0846													
+operon 154	NC_019936.1	918276	921417	+	3	Psest_0848	Psest_0849	Psest_0850														
+operon 155	NC_019936.1	922531	928031	+	5	Psest_0852	Psest_0853	Psest_0854	Psest_0855	Psest_0856												
+operon 156	NC_019936.1	933412	936596	-	2	Psest_0861	Psest_0862															
+operon 157	NC_019936.1	938104	943421	+	3	Psest_0864	Psest_0865	Psest_0866														
+operon 158	NC_019936.1	948527	950163	+	2	Psest_0872	Psest_0873															
+operon 159	NC_019936.1	961602	962428	+	2	Psest_0883	Psest_0884															
+operon 160	NC_019936.1	966479	968030	-	2	Psest_0889	Psest_0890															
+operon 161	NC_019936.1	972554	977426	+	3	Psest_0897	Psest_0898	Psest_0899														
+operon 162	NC_019936.1	986202	986920	+	2	Psest_0908	Psest_0909															
+operon 163	NC_019936.1	986972	988091	+	2	Psest_0910	Psest_0911															
+operon 164	NC_019936.1	988300	994269	+	3	Psest_0912	Psest_0913	Psest_0914														
+operon 165	NC_019936.1	1002285	1003093	+	2	Psest_0922	Psest_0923															
+operon 166	NC_019936.1	1005057	1008841	+	4	Psest_0927	Psest_0928	Psest_0929	Psest_0930													
+operon 167	NC_019936.1	1009075	1010736	-	2	Psest_0931	Psest_0932															
+operon 168	NC_019936.1	1012369	1016685	+	2	Psest_0935	Psest_0936															
+operon 169	NC_019936.1	1016754	1018184	-	2	Psest_0937	Psest_0938															
+operon 170	NC_019936.1	1018678	1021243	+	4	Psest_0939	Psest_0940	Psest_0941	Psest_0942													
+operon 171	NC_019936.1	1021525	1024156	-	3	Psest_0944	Psest_0945	Psest_0946														
+operon 172	NC_019936.1	1030557	1038137	-	5	Psest_0951	Psest_0952	Psest_0953	Psest_0954	Psest_0955												
+operon 173	NC_019936.1	1039953	1040694	+	2	Psest_0958	Psest_0959															
+operon 174	NC_019936.1	1043686	1046268	+	2	Psest_0963	Psest_0964															
+operon 175	NC_019936.1	1046391	1048404	+	2	Psest_0965	Psest_0966															
+operon 176	NC_019936.1	1048621	1053909	+	4	Psest_0967	Psest_0968	Psest_0969	Psest_0970													
+operon 177	NC_019936.1	1056873	1059072	+	2	Psest_0973	Psest_0974															
+operon 178	NC_019936.1	1060675	1065192	+	3	Psest_0979	Psest_0980	Psest_0981														
+operon 179	NC_019936.1	1065295	1066604	+	2	Psest_0982	Psest_0983															
+operon 180	NC_019936.1	1069965	1073478	-	3	Psest_0988	Psest_0989	Psest_0990														
+operon 181	NC_019936.1	1073564	1075521	-	2	Psest_0991	Psest_0992															
+operon 182	NC_019936.1	1078150	1079807	-	2	Psest_0995	Psest_0996															
+operon 183	NC_019936.1	1079931	1081854	-	2	Psest_0997	Psest_0998															
+operon 184	NC_019936.1	1084079	1087193	-	2	Psest_1000	Psest_1001															
+operon 185	NC_019936.1	1087302	1088743	-	2	Psest_1002	Psest_1003															
+operon 186	NC_019936.1	1088935	1090814	+	2	Psest_1004	Psest_1005															
+operon 187	NC_019936.1	1093291	1095075	-	2	Psest_1009	Psest_1010															
+operon 188	NC_019936.1	1095694	1099907	-	2	Psest_1012	Psest_1013															
+operon 189	NC_019936.1	1100107	1103118	-	3	Psest_1014	Psest_1015	Psest_1016														
+operon 190	NC_019936.1	1105699	1108043	-	3	Psest_1019	Psest_1020	Psest_1021														
+operon 191	NC_019936.1	1108257	1110426	-	2	Psest_1022	Psest_1023															
+operon 192	NC_019936.1	1110560	1113260	+	3	Psest_1024	Psest_1025	Psest_1026														
+operon 193	NC_019936.1	1114375	1115442	-	2	Psest_1029	Psest_1030															
+operon 194	NC_019936.1	1117237	1120645	+	3	Psest_1032	Psest_1033	Psest_1034														
+operon 195	NC_019936.1	1121522	1124833	+	3	Psest_1036	Psest_1037	Psest_1038														
+operon 196	NC_019936.1	1125881	1127508	+	2	Psest_1040	Psest_1041															
+operon 197	NC_019936.1	1133715	1137283	+	3	Psest_1048	Psest_1049	Psest_1050														
+operon 198	NC_019936.1	1137390	1140910	-	2	Psest_1051	Psest_1052															
+operon 199	NC_019936.1	1142571	1144936	+	2	Psest_1054	Psest_1055															
+operon 200	NC_019936.1	1145285	1148097	+	3	Psest_1056	Psest_1057	Psest_1058														
+operon 201	NC_019936.1	1149386	1151594	+	2	Psest_1060	Psest_1061															
+operon 202	NC_019936.1	1151675	1153218	+	2	Psest_1062	Psest_1063															
+operon 203	NC_019936.1	1160331	1162320	-	2	Psest_1072	Psest_1073															
+operon 204	NC_019936.1	1163988	1165645	-	2	Psest_1075	Psest_1076															
+operon 205	NC_019936.1	1165903	1167232	-	2	Psest_1077	Psest_1078															
+operon 206	NC_019936.1	1168381	1173349	-	4	Psest_1080	Psest_1081	Psest_1082	Psest_1083													
+operon 207	NC_019936.1	1180301	1185061	+	5	Psest_1089	Psest_1090	Psest_1091	Psest_1092	Psest_1093												
+operon 208	NC_019936.1	1187549	1196602	-	5	Psest_1096	Psest_1097	Psest_1098	Psest_1099	Psest_1100												
+operon 209	NC_019936.1	1199411	1201772	-	3	Psest_1103	Psest_1104	Psest_1105														
+operon 210	NC_019936.1	1203140	1206352	-	3	Psest_1109	Psest_1110	Psest_1111														
+operon 211	NC_019936.1	1206550	1211928	+	6	Psest_1112	Psest_1113	Psest_1114	Psest_1115	Psest_1116	Psest_1117											
+operon 212	NC_019936.1	1211986	1214281	-	3	Psest_1118	Psest_1119	Psest_1120														
+operon 213	NC_019936.1	1228253	1229820	+	2	Psest_1131	Psest_1132															
+operon 214	NC_019936.1	1232451	1234374	+	2	Psest_1135	Psest_1136															
+operon 215	NC_019936.1	1234405	1239978	-	5	Psest_1137	Psest_1138	Psest_1139	Psest_1140	Psest_1141												
+operon 216	NC_019936.1	1241576	1243674	-	2	Psest_1144	Psest_1145															
+operon 217	NC_019936.1	1247298	1249289	+	2	Psest_1150	Psest_1151															
+operon 218	NC_019936.1	1254172	1259513	-	4	Psest_1155	Psest_1156	Psest_1157	Psest_1158													
+operon 219	NC_019936.1	1261184	1262651	+	2	Psest_1160	Psest_1161															
+operon 220	NC_019936.1	1275416	1276879	-	2	Psest_1173	Psest_1174															
+operon 221	NC_019936.1	1278310	1281029	-	2	Psest_1177	Psest_1178															
+operon 222	NC_019936.1	1281358	1283063	-	2	Psest_1179	Psest_1180															
+operon 223	NC_019936.1	1286200	1287166	-	2	Psest_1183	Psest_1184															
+operon 224	NC_019936.1	1287273	1289302	+	2	Psest_1185	Psest_1186															
+operon 225	NC_019936.1	1301672	1304172	-	3	Psest_1198	Psest_1199	Psest_1200														
+operon 226	NC_019936.1	1305007	1307060	-	2	Psest_1202	Psest_1203															
+operon 227	NC_019936.1	1308470	1310883	+	3	Psest_1205	Psest_1206	Psest_1207														
+operon 228	NC_019936.1	1313419	1317256	-	2	Psest_1210	Psest_1211															
+operon 229	NC_019936.1	1326316	1327618	+	2	Psest_1218	Psest_1219															
+operon 230	NC_019936.1	1327622	1330294	-	3	Psest_1220	Psest_1221	Psest_1222														
+operon 231	NC_019936.1	1331458	1332788	+	2	Psest_1224	Psest_1225															
+operon 232	NC_019936.1	1335686	1339262	-	3	Psest_1229	Psest_1230	Psest_1231														
+operon 233	NC_019936.1	1343042	1345022	-	2	Psest_1234	Psest_1235															
+operon 234	NC_019936.1	1345289	1347464	+	2	Psest_1236	Psest_1237															
+operon 235	NC_019936.1	1349037	1354445	+	5	Psest_1241	Psest_1242	Psest_1243	Psest_1244	Psest_1245												
+operon 236	NC_019936.1	1356086	1357638	+	2	Psest_1248	Psest_1249															
+operon 237	NC_019936.1	1357798	1363290	+	8	Psest_1250	Psest_1251	Psest_1252	Psest_1253	Psest_1254	Psest_1255	Psest_1256	Psest_1257									
+operon 238	NC_019936.1	1363456	1371079	+	8	Psest_1258	Psest_1259	Psest_1260	Psest_1261	Psest_1262	Psest_1263	Psest_1264	Psest_1265									
+operon 239	NC_019936.1	1373633	1375563	+	2	Psest_1268	Psest_1269															
+operon 240	NC_019936.1	1376341	1377344	-	2	Psest_1272	Psest_1273															
+operon 241	NC_019936.1	1382265	1382841	-	2	Psest_1278	Psest_1279															
+operon 242	NC_019936.1	1385350	1388143	-	3	Psest_1281	Psest_1282	Psest_1283														
+operon 243	NC_019936.1	1393733	1395605	+	2	Psest_1288	Psest_1289															
+operon 244	NC_019936.1	1395602	1397616	-	2	Psest_1290	Psest_1291															
+operon 245	NC_019936.1	1407255	1408995	-	3	Psest_1305	Psest_1306	Psest_1307														
+operon 246	NC_019936.1	1409160	1412804	-	4	Psest_1308	Psest_1309	Psest_1310	Psest_1311													
+operon 247	NC_019936.1	1414756	1417983	-	3	Psest_1314	Psest_1315	Psest_1316														
+operon 248	NC_019936.1	1418068	1421384	-	4	Psest_1317	Psest_1318	Psest_1319	Psest_1320													
+operon 249	NC_019936.1	1422976	1424642	+	2	Psest_1322	Psest_1323															
+operon 250	NC_019936.1	1431700	1432773	+	3	Psest_1328	Psest_1329	Psest_1330														
+operon 251	NC_019936.1	1446570	1451620	+	2	Psest_1339	Psest_1340															
+operon 252	NC_019936.1	1451658	1454919	-	3	Psest_1341	Psest_1342	Psest_1343														
+operon 253	NC_019936.1	1455150	1457530	-	2	Psest_1344	Psest_1345															
+operon 254	NC_019936.1	1465067	1465922	-	2	Psest_1353	Psest_1354															
+operon 255	NC_019936.1	1466042	1467347	-	2	Psest_1355	Psest_1356															
+operon 256	NC_019936.1	1470176	1472548	+	3	Psest_1360	Psest_1361	Psest_1362														
+operon 257	NC_019936.1	1487077	1488916	-	3	Psest_1377	Psest_1378	Psest_1379														
+operon 258	NC_019936.1	1491207	1492636	+	2	Psest_1381	Psest_1382															
+operon 259	NC_019936.1	1499516	1502191	-	2	Psest_1391	Psest_1392															
+operon 260	NC_019936.1	1503364	1504552	-	2	Psest_1394	Psest_1395															
+operon 261	NC_019936.1	1504675	1509521	-	6	Psest_1396	Psest_1397	Psest_1398	Psest_1399	Psest_1400	Psest_1401											
+operon 262	NC_019936.1	1512440	1515653	-	2	Psest_1406	Psest_1407															
+operon 263	NC_019936.1	1516088	1518111	+	2	Psest_1408	Psest_1409															
+operon 264	NC_019936.1	1529091	1530103	+	2	Psest_1420	Psest_1421															
+operon 265	NC_019936.1	1534110	1537941	-	5	Psest_1424	Psest_1425	Psest_1426	Psest_1427	Psest_1428												
+operon 266	NC_019936.1	1538022	1541167	-	3	Psest_1429	Psest_1430	Psest_1431														
+operon 267	NC_019936.1	1545278	1547289	+	2	Psest_1434	Psest_1435															
+operon 268	NC_019936.1	1548456	1550091	-	2	Psest_1438	Psest_1439															
+operon 269	NC_019936.1	1553598	1555890	-	4	Psest_1443	Psest_1444	Psest_1445	Psest_1446													
+operon 270	NC_019936.1	1556848	1558358	+	2	Psest_1448	Psest_1449															
+operon 271	NC_019936.1	1565902	1566900	-	2	Psest_1456	Psest_1457															
+operon 272	NC_019936.1	1568226	1569796	+	2	Psest_1460	Psest_1461															
+operon 273	NC_019936.1	1571176	1574325	-	4	Psest_1463	Psest_1464	Psest_1465	Psest_1466													
+operon 274	NC_019936.1	1574914	1575335	+	2	Psest_1468	Psest_1469															
+operon 275	NC_019936.1	1577345	1579769	-	3	Psest_1472	Psest_1473	Psest_1474														
+operon 276	NC_019936.1	1580141	1583042	+	3	Psest_1475	Psest_1476	Psest_1477														
+operon 277	NC_019936.1	1583093	1584484	-	3	Psest_1478	Psest_1479	Psest_1480														
+operon 278	NC_019936.1	1587268	1590503	-	3	Psest_1485	Psest_1486	Psest_1487														
+operon 279	NC_019936.1	1592352	1592983	+	2	Psest_1489	Psest_1490															
+operon 280	NC_019936.1	1597559	1605133	+	10	Psest_1495	Psest_1496	Psest_1497	Psest_1498	Psest_1499	Psest_1500	Psest_1501	Psest_1502	Psest_1503	Psest_1504							
+operon 281	NC_019936.1	1605223	1606623	+	2	Psest_1505	Psest_1506															
+operon 282	NC_019936.1	1611378	1612727	+	2	Psest_1511	Psest_1512															
+operon 283	NC_019936.1	1612761	1613816	-	2	Psest_1513	Psest_1514															
+operon 284	NC_019936.1	1614044	1617001	+	3	Psest_1515	Psest_1516	Psest_1517														
+operon 285	NC_019936.1	1620201	1623344	-	3	Psest_1521	Psest_1522	Psest_1523														
+operon 286	NC_019936.1	1623787	1625774	+	2	Psest_1524	Psest_1525															
+operon 287	NC_019936.1	1631594	1634042	+	3	Psest_1529	Psest_1530	Psest_1531														
+operon 288	NC_019936.1	1639470	1641831	-	3	Psest_1540	Psest_1541	Psest_1542														
+operon 289	NC_019936.1	1642011	1644280	+	2	Psest_1543	Psest_1544															
+operon 290	NC_019936.1	1646598	1648456	+	2	Psest_1546	Psest_1547															
+operon 291	NC_019936.1	1649742	1652635	+	2	Psest_1549	Psest_1550															
+operon 292	NC_019936.1	1652678	1654526	+	3	Psest_1551	Psest_1552	Psest_1553														
+operon 293	NC_019936.1	1660389	1663953	+	5	Psest_1559	Psest_1560	Psest_1561	Psest_1562	Psest_1563												
+operon 294	NC_019936.1	1664716	1668902	+	2	Psest_1565	Psest_1566															
+operon 295	NC_019936.1	1672044	1674906	-	2	Psest_1570	Psest_1571															
+operon 296	NC_019936.1	1675208	1676280	+	2	Psest_1572	Psest_1573															
+operon 297	NC_019936.1	1679726	1683866	+	2	Psest_1576	Psest_1577															
+operon 298	NC_019936.1	1688574	1691248	-	2	Psest_1584	Psest_1585															
+operon 299	NC_019936.1	1692187	1695975	-	4	Psest_1587	Psest_1588	Psest_1589	Psest_1590													
+operon 300	NC_019936.1	1696172	1697379	+	2	Psest_1591	Psest_1592															
+operon 301	NC_019936.1	1697390	1698496	-	3	Psest_1593	Psest_1594	Psest_1595														
+operon 302	NC_019936.1	1701916	1703960	+	2	Psest_1598	Psest_1599															
+operon 303	NC_019936.1	1703969	1706499	-	3	Psest_1600	Psest_1601	Psest_1602														
+operon 304	NC_019936.1	1706639	1709954	+	3	Psest_1603	Psest_1604	Psest_1605														
+operon 305	NC_019936.1	1716213	1719710	+	3	Psest_1612	Psest_1613	Psest_1614														
+operon 306	NC_019936.1	1720655	1722603	-	2	Psest_1617	Psest_1618															
+operon 307	NC_019936.1	1726741	1728232	-	2	Psest_1623	Psest_1624															
+operon 308	NC_019936.1	1756560	1762927	-	3	Psest_1651	Psest_1652	Psest_1653														
+operon 309	NC_019936.1	1764872	1772007	+	8	Psest_1655	Psest_1656	Psest_1657	Psest_1658	Psest_1659	Psest_1660	Psest_1661	Psest_1662									
+operon 310	NC_019936.1	1773695	1775361	-	3	Psest_1664	Psest_1665	Psest_1666														
+operon 311	NC_019936.1	1775394	1778588	+	3	Psest_1667	Psest_1668	Psest_1669														
+operon 312	NC_019936.1	1779258	1783616	+	4	Psest_1671	Psest_1672	Psest_1673	Psest_1674													
+operon 313	NC_019936.1	1783662	1786093	+	4	Psest_1675	Psest_1676	Psest_1677	Psest_1678													
+operon 314	NC_019936.1	1790226	1792831	+	3	Psest_1680	Psest_1681	Psest_1682														
+operon 315	NC_019936.1	1793524	1797080	+	5	Psest_1684	Psest_1685	Psest_1686	Psest_1687	Psest_1688												
+operon 316	NC_019936.1	1797682	1802807	+	6	Psest_1690	Psest_1691	Psest_1692	Psest_1693	Psest_1694	Psest_1695											
+operon 317	NC_019936.1	1806631	1808179	+	2	Psest_1700	Psest_1701															
+operon 318	NC_019936.1	1811581	1813260	+	2	Psest_1705	Psest_1706															
+operon 319	NC_019936.1	1813386	1815366	+	3	Psest_1707	Psest_1708	Psest_1709														
+operon 320	NC_019936.1	1815470	1817450	+	2	Psest_1710	Psest_1711															
+operon 321	NC_019936.1	1824710	1830446	+	6	Psest_1718	Psest_1719	Psest_1720	Psest_1721	Psest_1722	Psest_1723											
+operon 322	NC_019936.1	1830677	1833054	+	3	Psest_1724	Psest_1725	Psest_1726														
+operon 323	NC_019936.1	1834705	1836222	+	2	Psest_1728	Psest_1729															
+operon 324	NC_019936.1	1836263	1840168	+	6	Psest_1730	Psest_1731	Psest_1732	Psest_1733	Psest_1734	Psest_1735											
+operon 325	NC_019936.1	1840957	1844382	+	2	Psest_1737	Psest_1738															
+operon 326	NC_019936.1	1844474	1853125	+	9	Psest_1739	Psest_1740	Psest_1741	Psest_1742	Psest_1743	Psest_1744	Psest_1745	Psest_1746	Psest_1747								
+operon 327	NC_019936.1	1853213	1855001	+	3	Psest_1748	Psest_1749	Psest_1750														
+operon 328	NC_019936.1	1855560	1857418	-	2	Psest_1752	Psest_1753															
+operon 329	NC_019936.1	1857554	1858857	+	2	Psest_1754	Psest_1755															
+operon 330	NC_019936.1	1858950	1864978	+	8	Psest_1756	Psest_1757	Psest_1758	Psest_1759	Psest_1760	Psest_1761	Psest_1762	Psest_1763									
+operon 331	NC_019936.1	1867447	1870037	+	2	Psest_1766	Psest_1767															
+operon 332	NC_019936.1	1870771	1872376	-	2	Psest_1769	Psest_1770															
+operon 333	NC_019936.1	1872465	1874151	-	2	Psest_1771	Psest_1772															
+operon 334	NC_019936.1	1874342	1876227	+	3	Psest_1773	Psest_1774	Psest_1775														
+operon 335	NC_019936.1	1878847	1880228	+	4	Psest_1782	Psest_1783	Psest_1784	Psest_1785													
+operon 336	NC_019936.1	1880311	1885096	-	4	Psest_1786	Psest_1787	Psest_1788	Psest_1789													
+operon 337	NC_019936.1	1885271	1888440	-	3	Psest_1790	Psest_1791	Psest_1792														
+operon 338	NC_019936.1	1889522	1891074	-	2	Psest_1794	Psest_1795															
+operon 339	NC_019936.1	1908426	1915283	+	7	Psest_1809	Psest_1810	Psest_1811	Psest_1812	Psest_1813	Psest_1814	Psest_1815										
+operon 340	NC_019936.1	1915407	1923612	+	9	Psest_1816	Psest_1817	Psest_1818	Psest_1819	Psest_1820	Psest_1821	Psest_1822	Psest_1823	Psest_1824								
+operon 341	NC_019936.1	1932669	1936812	-	4	Psest_1831	Psest_1832	Psest_1833	Psest_1834													
+operon 342	NC_019936.1	1936877	1940398	-	3	Psest_1835	Psest_1836	Psest_1837														
+operon 343	NC_019936.1	1940530	1943197	-	2	Psest_1838	Psest_1839															
+operon 344	NC_019936.1	1946180	1947993	+	2	Psest_1842	Psest_1843															
+operon 345	NC_019936.1	1953706	1955513	+	3	Psest_1848	Psest_1849	Psest_1850														
+operon 346	NC_019936.1	1956801	1958104	-	2	Psest_1852	Psest_1853															
+operon 347	NC_019936.1	1974119	1977438	-	4	Psest_1864	Psest_1865	Psest_1866	Psest_1867													
+operon 348	NC_019936.1	1992338	1994189	-	2	Psest_1882	Psest_1883															
+operon 349	NC_019936.1	1994332	1995776	-	3	Psest_1884	Psest_1885	Psest_1886														
+operon 350	NC_019936.1	1996181	1997684	+	2	Psest_1887	Psest_1888															
+operon 351	NC_019936.1	1997731	2000585	+	3	Psest_1889	Psest_1890	Psest_1891														
+operon 352	NC_019936.1	2000760	2003548	+	2	Psest_1892	Psest_1893															
+operon 353	NC_019936.1	2003605	2005774	+	2	Psest_1894	Psest_1895															
+operon 354	NC_019936.1	2007290	2010226	+	3	Psest_1897	Psest_1898	Psest_1899														
+operon 355	NC_019936.1	2011569	2013388	-	2	Psest_1901	Psest_1902															
+operon 356	NC_019936.1	2013534	2015851	+	2	Psest_1903	Psest_1904															
+operon 357	NC_019936.1	2016798	2017766	+	3	Psest_1907	Psest_1908	Psest_1909														
+operon 358	NC_019936.1	2022193	2024433	-	2	Psest_1915	Psest_1916															
+operon 359	NC_019936.1	2024649	2027364	+	3	Psest_1917	Psest_1918	Psest_1919														
+operon 360	NC_019936.1	2027433	2028544	+	2	Psest_1920	Psest_1921															
+operon 361	NC_019936.1	2031797	2035259	+	2	Psest_1923	Psest_1924															
+operon 362	NC_019936.1	2035333	2038801	-	2	Psest_1925	Psest_1926															
+operon 363	NC_019936.1	2038844	2041648	-	2	Psest_1927	Psest_1928															
+operon 364	NC_019936.1	2048334	2050147	-	2	Psest_1936	Psest_1937															
+operon 365	NC_019936.1	2050320	2057087	-	6	Psest_1938	Psest_1939	Psest_1940	Psest_1941	Psest_1942	Psest_1943											
+operon 366	NC_019936.1	2069668	2072096	-	2	Psest_1952	Psest_1953															
+operon 367	NC_019936.1	2072260	2073373	-	3	Psest_1954	Psest_1955	Psest_1956														
+operon 368	NC_019936.1	2078544	2079895	+	2	Psest_1964	Psest_1965															
+operon 369	NC_019936.1	2081658	2084131	+	2	Psest_1968	Psest_1969															
+operon 370	NC_019936.1	2084938	2089012	+	4	Psest_1972	Psest_1973	Psest_1974	Psest_1975													
+operon 371	NC_019936.1	2089617	2094732	-	3	Psest_1978	Psest_1979	Psest_1980														
+operon 372	NC_019936.1	2099196	2105497	+	5	Psest_1983	Psest_1984	Psest_1985	Psest_1986	Psest_1987												
+operon 373	NC_019936.1	2107983	2109804	+	2	Psest_1990	Psest_1991															
+operon 374	NC_019936.1	2109851	2111048	-	2	Psest_1992	Psest_1993															
+operon 375	NC_019936.1	2113224	2116055	+	3	Psest_1996	Psest_1997	Psest_1998														
+operon 376	NC_019936.1	2118192	2119561	-	2	Psest_2001	Psest_2002															
+operon 377	NC_019936.1	2134961	2137987	-	4	Psest_2015	Psest_2016	Psest_2017	Psest_2018													
+operon 378	NC_019936.1	2139522	2141284	-	2	Psest_2020	Psest_2021															
+operon 379	NC_019936.1	2146283	2148945	+	2	Psest_2026	Psest_2027															
+operon 380	NC_019936.1	2149389	2151828	-	3	Psest_2029	Psest_2030	Psest_2031														
+operon 381	NC_019936.1	2152038	2156855	+	4	Psest_2032	Psest_2033	Psest_2034	Psest_2035													
+operon 382	NC_019936.1	2161136	2165461	-	5	Psest_2040	Psest_2041	Psest_2042	Psest_2043	Psest_2044												
+operon 383	NC_019936.1	2168638	2170559	+	2	Psest_2047	Psest_2048															
+operon 384	NC_019936.1	2180347	2183472	+	4	Psest_2055	Psest_2056	Psest_2057	Psest_2058													
+operon 385	NC_019936.1	2188809	2197056	-	6	Psest_2063	Psest_2064	Psest_2065	Psest_2066	Psest_2067	Psest_2068											
+operon 386	NC_019936.1	2201207	2205543	+	4	Psest_2072	Psest_2073	Psest_2074	Psest_2075													
+operon 387	NC_019936.1	2205726	2209088	+	3	Psest_2076	Psest_2077	Psest_2078														
+operon 388	NC_019936.1	2214098	2216126	+	2	Psest_2085	Psest_2086															
+operon 389	NC_019936.1	2216397	2218539	-	2	Psest_2088	Psest_2089															
+operon 390	NC_019936.1	2219911	2221702	-	2	Psest_2092	Psest_2093															
+operon 391	NC_019936.1	2221786	2223997	-	2	Psest_2094	Psest_2095															
+operon 392	NC_019936.1	2225645	2226735	-	2	Psest_2098	Psest_2099															
+operon 393	NC_019936.1	2228090	2232166	-	2	Psest_2101	Psest_2102															
+operon 394	NC_019936.1	2235466	2237408	+	2	Psest_2105	Psest_2106															
+operon 395	NC_019936.1	2242652	2244534	+	2	Psest_2113	Psest_2114															
+operon 396	NC_019936.1	2249799	2251419	-	2	Psest_2118	Psest_2119															
+operon 397	NC_019936.1	2256595	2258689	+	2	Psest_2125	Psest_2126															
+operon 398	NC_019936.1	2261066	2263331	-	2	Psest_2129	Psest_2130															
+operon 399	NC_019936.1	2264233	2269724	+	2	Psest_2132	Psest_2133															
+operon 400	NC_019936.1	2275497	2284432	+	4	Psest_2138	Psest_2139	Psest_2140	Psest_2141													
+operon 401	NC_019936.1	2285631	2291575	-	3	Psest_2143	Psest_2144	Psest_2145														
+operon 402	NC_019936.1	2297209	2302894	+	4	Psest_2151	Psest_2152	Psest_2153	Psest_2154													
+operon 403	NC_019936.1	2305565	2311097	+	2	Psest_2157	Psest_2158															
+operon 404	NC_019936.1	2311379	2315329	-	4	Psest_2159	Psest_2160	Psest_2161	Psest_2162													
+operon 405	NC_019936.1	2316736	2318427	+	2	Psest_2164	Psest_2165															
+operon 406	NC_019936.1	2321821	2330366	-	5	Psest_2168	Psest_2169	Psest_2170	Psest_2171	Psest_2172												
+operon 407	NC_019936.1	2333964	2336855	+	2	Psest_2178	Psest_2179															
+operon 408	NC_019936.1	2340037	2345624	-	5	Psest_2183	Psest_2184	Psest_2185	Psest_2186	Psest_2187												
+operon 409	NC_019936.1	2347848	2349698	+	3	Psest_2191	Psest_2192	Psest_2193														
+operon 410	NC_019936.1	2350223	2353200	+	3	Psest_2195	Psest_2196	Psest_2197														
+operon 411	NC_019936.1	2354280	2356130	+	3	Psest_2200	Psest_2201	Psest_2202														
+operon 412	NC_019936.1	2356655	2359632	+	3	Psest_2204	Psest_2205	Psest_2206														
+operon 413	NC_019936.1	2360944	2361584	+	2	Psest_2208	Psest_2209															
+operon 414	NC_019936.1	2362896	2363536	+	2	Psest_2211	Psest_2212															
+operon 415	NC_019936.1	2364847	2365485	+	2	Psest_2214	Psest_2215															
+operon 416	NC_019936.1	2365745	2370888	-	5	Psest_2216	Psest_2217	Psest_2218	Psest_2219	Psest_2220												
+operon 417	NC_019936.1	2377046	2378958	-	2	Psest_2227	Psest_2228															
+operon 418	NC_019936.1	2386609	2390522	+	2	Psest_2235	Psest_2236															
+operon 419	NC_019936.1	2390959	2392052	+	2	Psest_2238	Psest_2239															
+operon 420	NC_019936.1	2395147	2399034	-	7	Psest_2243	Psest_2244	Psest_2245	Psest_2246	Psest_2247	Psest_2248	Psest_2249										
+operon 421	NC_019936.1	2399231	2403148	+	4	Psest_2250	Psest_2251	Psest_2252	Psest_2253													
+operon 422	NC_019936.1	2404119	2407178	-	3	Psest_2258	Psest_2259	Psest_2260														
+operon 423	NC_019936.1	2409104	2418291	-	6	Psest_2263	Psest_2264	Psest_2265	Psest_2266	Psest_2267	Psest_2268											
+operon 424	NC_019936.1	2418399	2422559	-	4	Psest_2269	Psest_2270	Psest_2271	Psest_2272													
+operon 425	NC_019936.1	2422646	2423675	-	2	Psest_2273	Psest_2274															
+operon 426	NC_019936.1	2427133	2428689	+	3	Psest_2277	Psest_2278	Psest_2279														
+operon 427	NC_019936.1	2428775	2431197	+	3	Psest_2280	Psest_2281	Psest_2282														
+operon 428	NC_019936.1	2436295	2438311	-	2	Psest_2286	Psest_2287															
+operon 429	NC_019936.1	2439889	2444093	-	3	Psest_2289	Psest_2290	Psest_2291														
+operon 430	NC_019936.1	2444140	2446540	-	3	Psest_2292	Psest_2293	Psest_2294														
+operon 431	NC_019936.1	2447126	2448611	-	2	Psest_2295	Psest_2296															
+operon 432	NC_019936.1	2452059	2455174	-	2	Psest_2302	Psest_2303															
+operon 433	NC_019936.1	2455315	2456538	+	2	Psest_2304	Psest_2305															
+operon 434	NC_019936.1	2461984	2465872	-	5	Psest_2310	Psest_2311	Psest_2312	Psest_2313	Psest_2314												
+operon 435	NC_019936.1	2471353	2475158	-	2	Psest_2319	Psest_2320															
+operon 436	NC_019936.1	2475251	2476866	-	2	Psest_2321	Psest_2322															
+operon 437	NC_019936.1	2477038	2481594	+	4	Psest_2323	Psest_2324	Psest_2325	Psest_2326													
+operon 438	NC_019936.1	2487726	2489688	-	3	Psest_2334	Psest_2335	Psest_2336														
+operon 439	NC_019936.1	2489700	2493424	+	3	Psest_2337	Psest_2338	Psest_2339														
+operon 440	NC_019936.1	2500071	2503222	+	4	Psest_2346	Psest_2347	Psest_2348	Psest_2349													
+operon 441	NC_019936.1	2511479	2519643	+	10	Psest_2356	Psest_2357	Psest_2358	Psest_2359	Psest_2360	Psest_2361	Psest_2362	Psest_2363	Psest_2364	Psest_2365							
+operon 442	NC_019936.1	2520812	2523256	+	2	Psest_2367	Psest_2368															
+operon 443	NC_019936.1	2524757	2528980	+	7	Psest_2372	Psest_2373	Psest_2374	Psest_2375	Psest_2376	Psest_2377	Psest_2378										
+operon 444	NC_019936.1	2529008	2532740	-	2	Psest_2379	Psest_2380															
+operon 445	NC_019936.1	2534543	2538065	-	2	Psest_2382	Psest_2383															
+operon 446	NC_019936.1	2539131	2542348	+	5	Psest_2386	Psest_2387	Psest_2388	Psest_2389	Psest_2390												
+operon 447	NC_019936.1	2545751	2547758	-	2	Psest_2393	Psest_2394															
+operon 448	NC_019936.1	2548084	2557460	+	9	Psest_2395	Psest_2396	Psest_2397	Psest_2398	Psest_2399	Psest_2400	Psest_2401	Psest_2402	Psest_2403								
+operon 449	NC_019936.1	2560243	2563184	+	2	Psest_2406	Psest_2407															
+operon 450	NC_019936.1	2563352	2565945	+	2	Psest_2408	Psest_2409															
+operon 451	NC_019936.1	2571164	2575132	-	4	Psest_2412	Psest_2413	Psest_2414	Psest_2415													
+operon 452	NC_019936.1	2580774	2582733	+	2	Psest_2418	Psest_2419															
+operon 453	NC_019936.1	2583774	2586922	+	2	Psest_2421	Psest_2422															
+operon 454	NC_019936.1	2587435	2589457	-	2	Psest_2424	Psest_2425															
+operon 455	NC_019936.1	2593244	2594169	-	2	Psest_2428	Psest_2429															
+operon 456	NC_019936.1	2598660	2602764	+	3	Psest_2432	Psest_2433	Psest_2434														
+operon 457	NC_019936.1	2605492	2610103	+	5	Psest_2437	Psest_2438	Psest_2439	Psest_2440	Psest_2441												
+operon 458	NC_019936.1	2610963	2613754	-	2	Psest_2443	Psest_2444															
+operon 459	NC_019936.1	2613875	2616988	-	3	Psest_2445	Psest_2446	Psest_2447														
+operon 460	NC_019936.1	2617175	2618751	-	2	Psest_2448	Psest_2449															
+operon 461	NC_019936.1	2620879	2623063	+	2	Psest_2452	Psest_2453															
+operon 462	NC_019936.1	2624649	2628560	-	3	Psest_2456	Psest_2457	Psest_2458														
+operon 463	NC_019936.1	2631478	2633927	-	3	Psest_2460	Psest_2461	Psest_2462														
+operon 464	NC_019936.1	2637305	2639542	-	3	Psest_2466	Psest_2467	Psest_2468														
+operon 465	NC_019936.1	2639612	2641468	-	3	Psest_2469	Psest_2470	Psest_2471														
+operon 466	NC_019936.1	2641899	2643643	+	2	Psest_2472	Psest_2473															
+operon 467	NC_019936.1	2644959	2647358	+	2	Psest_2475	Psest_2476															
+operon 468	NC_019936.1	2658380	2660589	-	3	Psest_2485	Psest_2486	Psest_2487														
+operon 469	NC_019936.1	2663210	2665260	-	2	Psest_2490	Psest_2491															
+operon 470	NC_019936.1	2665455	2671108	-	3	Psest_2492	Psest_2493	Psest_2494														
+operon 471	NC_019936.1	2671401	2674628	-	4	Psest_2495	Psest_2496	Psest_2497	Psest_2498													
+operon 472	NC_019936.1	2677710	2678452	-	2	Psest_2503	Psest_2504															
+operon 473	NC_019936.1	2680060	2681678	-	2	Psest_2506	Psest_2507															
+operon 474	NC_019936.1	2692785	2697392	+	4	Psest_2515	Psest_2516	Psest_2517	Psest_2518													
+operon 475	NC_019936.1	2704456	2707533	+	3	Psest_2524	Psest_2525	Psest_2526														
+operon 476	NC_019936.1	2707885	2711046	+	4	Psest_2527	Psest_2528	Psest_2529	Psest_2530													
+operon 477	NC_019936.1	2711184	2715531	+	3	Psest_2531	Psest_2532	Psest_2533														
+operon 478	NC_019936.1	2715636	2716557	+	2	Psest_2534	Psest_2535															
+operon 479	NC_019936.1	2719098	2720405	+	2	Psest_2538	Psest_2539															
+operon 480	NC_019936.1	2721096	2724410	-	4	Psest_2541	Psest_2542	Psest_2543	Psest_2544													
+operon 481	NC_019936.1	2725256	2727614	-	2	Psest_2546	Psest_2547															
+operon 482	NC_019936.1	2730385	2733805	-	3	Psest_2550	Psest_2551	Psest_2552														
+operon 483	NC_019936.1	2734004	2736495	-	2	Psest_2553	Psest_2554															
+operon 484	NC_019936.1	2736683	2738730	+	2	Psest_2555	Psest_2556															
+operon 485	NC_019936.1	2739008	2741622	-	3	Psest_2557	Psest_2558	Psest_2559														
+operon 486	NC_019936.1	2741818	2743203	+	2	Psest_2560	Psest_2561															
+operon 487	NC_019936.1	2743205	2747449	-	3	Psest_2562	Psest_2563	Psest_2564														
+operon 488	NC_019936.1	2750791	2752617	+	2	Psest_2569	Psest_2570															
+operon 489	NC_019936.1	2755300	2757882	+	2	Psest_2576	Psest_2577															
+operon 490	NC_019936.1	2759203	2761323	-	2	Psest_2579	Psest_2580															
+operon 491	NC_019936.1	2761422	2764232	-	3	Psest_2581	Psest_2582	Psest_2583														
+operon 492	NC_019936.1	2764443	2768753	-	3	Psest_2584	Psest_2585	Psest_2586														
+operon 493	NC_019936.1	2770047	2774478	-	4	Psest_2588	Psest_2589	Psest_2590	Psest_2591													
+operon 494	NC_019936.1	2781002	2784671	+	3	Psest_2600	Psest_2601	Psest_2602														
+operon 495	NC_019936.1	2784723	2787705	+	2	Psest_2603	Psest_2604															
+operon 496	NC_019936.1	2787763	2792179	+	4	Psest_2605	Psest_2606	Psest_2607	Psest_2608													
+operon 497	NC_019936.1	2794614	2798600	+	5	Psest_2611	Psest_2612	Psest_2613	Psest_2614	Psest_2615												
+operon 498	NC_019936.1	2798607	2808380	-	10	Psest_2616	Psest_2617	Psest_2618	Psest_2619	Psest_2620	Psest_2621	Psest_2622	Psest_2623	Psest_2624	Psest_2625							
+operon 499	NC_019936.1	2808435	2811295	-	4	Psest_2626	Psest_2627	Psest_2628	Psest_2629													
+operon 500	NC_019936.1	2811480	2812516	+	2	Psest_2630	Psest_2631															
+operon 501	NC_019936.1	2814099	2817259	-	2	Psest_2633	Psest_2634															
+operon 502	NC_019936.1	2821888	2825668	-	4	Psest_2638	Psest_2639	Psest_2640	Psest_2641													
+operon 503	NC_019936.1	2825815	2828861	-	4	Psest_2642	Psest_2643	Psest_2644	Psest_2645													
+operon 504	NC_019936.1	2829070	2830166	+	2	Psest_2646	Psest_2647															
+operon 505	NC_019936.1	2835454	2838795	-	2	Psest_2653	Psest_2654															
+operon 506	NC_019936.1	2852540	2854593	-	2	Psest_2665	Psest_2666															
+operon 507	NC_019936.1	2854716	2858646	-	4	Psest_2667	Psest_2668	Psest_2669	Psest_2670													
+operon 508	NC_019936.1	2858772	2861063	+	2	Psest_2671	Psest_2672															
+operon 509	NC_019936.1	2866366	2868766	-	2	Psest_2677	Psest_2678															
+operon 510	NC_019936.1	2869871	2870687	-	2	Psest_2680	Psest_2681															
+operon 511	NC_019936.1	2881633	2885452	-	4	Psest_2692	Psest_2693	Psest_2694	Psest_2695													
+operon 512	NC_019936.1	2887527	2889377	-	2	Psest_2698	Psest_2699															
+operon 513	NC_019936.1	2890758	2894775	-	2	Psest_2701	Psest_2702															
+operon 514	NC_019936.1	2900241	2901904	-	2	Psest_2709	Psest_2710															
+operon 515	NC_019936.1	2903667	2907674	-	5	Psest_2714	Psest_2715	Psest_2716	Psest_2717	Psest_2718												
+operon 516	NC_019936.1	2912847	2913334	+	2	Psest_2725	Psest_2726															
+operon 517	NC_019936.1	2917244	2919573	-	2	Psest_2729	Psest_2730															
+operon 518	NC_019936.1	2940516	2942147	+	2	Psest_2750	Psest_2751															
+operon 519	NC_019936.1	2947473	2950336	-	2	Psest_2760	Psest_2761															
+operon 520	NC_019936.1	2968560	2970962	+	2	Psest_2772	Psest_2773															
+operon 521	NC_019936.1	2973797	2974308	-	2	Psest_2776	Psest_2777															
+operon 522	NC_019936.1	2976740	2977662	+	2	Psest_2780	Psest_2781															
+operon 523	NC_019936.1	2984939	2985846	+	2	Psest_2791	Psest_2792															
+operon 524	NC_019936.1	2989669	2991012	+	2	Psest_2799	Psest_2800															
+operon 525	NC_019936.1	2996594	3001365	-	6	Psest_2807	Psest_2808	Psest_2809	Psest_2810	Psest_2811	Psest_2812											
+operon 526	NC_019936.1	3001550	3002940	+	2	Psest_2813	Psest_2814															
+operon 527	NC_019936.1	3003113	3005162	-	2	Psest_2815	Psest_2816															
+operon 528	NC_019936.1	3006354	3007911	+	2	Psest_2818	Psest_2819															
+operon 529	NC_019936.1	3007946	3008946	-	2	Psest_2820	Psest_2821															
+operon 530	NC_019936.1	3009078	3012874	-	3	Psest_2822	Psest_2823	Psest_2824														
+operon 531	NC_019936.1	3019293	3022279	-	4	Psest_2828	Psest_2829	Psest_2830	Psest_2831													
+operon 532	NC_019936.1	3022383	3026348	-	3	Psest_2832	Psest_2833	Psest_2834														
+operon 533	NC_019936.1	3027830	3030587	-	3	Psest_2836	Psest_2837	Psest_2838														
+operon 534	NC_019936.1	3030721	3032018	-	2	Psest_2839	Psest_2840															
+operon 535	NC_019936.1	3034235	3037758	+	2	Psest_2844	Psest_2845															
+operon 536	NC_019936.1	3037811	3043518	-	6	Psest_2846	Psest_2847	Psest_2848	Psest_2849	Psest_2850	Psest_2851											
+operon 537	NC_019936.1	3051206	3052190	+	2	Psest_2860	Psest_2861															
+operon 538	NC_019936.1	3062448	3064540	-	3	Psest_2871	Psest_2872	Psest_2873														
+operon 539	NC_019936.1	3069352	3072488	-	4	Psest_2877	Psest_2878	Psest_2879	Psest_2880													
+operon 540	NC_019936.1	3074350	3079106	+	4	Psest_2883	Psest_2884	Psest_2885	Psest_2886													
+operon 541	NC_019936.1	3091385	3093962	-	2	Psest_2895	Psest_2896															
+operon 542	NC_019936.1	3094455	3095749	+	4	Psest_2898	Psest_2899	Psest_2900	Psest_2901													
+operon 543	NC_019936.1	3095817	3098092	+	2	Psest_2902	Psest_2903															
+operon 544	NC_019936.1	3098144	3098910	+	2	Psest_2904	Psest_2905															
+operon 545	NC_019936.1	3099155	3101093	-	3	Psest_2907	Psest_2908	Psest_2909														
+operon 546	NC_019936.1	3104154	3104951	+	2	Psest_2911	Psest_2912															
+operon 547	NC_019936.1	3105000	3108208	-	2	Psest_2913	Psest_2914															
+operon 548	NC_019936.1	3109707	3110689	+	2	Psest_2916	Psest_2917															
+operon 549	NC_019936.1	3117968	3118981	+	2	Psest_2923	Psest_2924															
+operon 550	NC_019936.1	3119949	3123991	+	3	Psest_2926	Psest_2927	Psest_2928														
+operon 551	NC_019936.1	3135698	3137667	-	2	Psest_2938	Psest_2939															
+operon 552	NC_019936.1	3138374	3141361	+	3	Psest_2941	Psest_2942	Psest_2943														
+operon 553	NC_019936.1	3143335	3144404	+	2	Psest_2946	Psest_2947															
+operon 554	NC_019936.1	3150384	3151545	-	3	Psest_2953	Psest_2954	Psest_2955														
+operon 555	NC_019936.1	3152944	3160883	-	7	Psest_2958	Psest_2959	Psest_2960	Psest_2961	Psest_2962	Psest_2963	Psest_2964										
+operon 556	NC_019936.1	3161079	3164258	-	4	Psest_2965	Psest_2966	Psest_2967	Psest_2968													
+operon 557	NC_019936.1	3164454	3166245	-	2	Psest_2969	Psest_2970															
+operon 558	NC_019936.1	3167191	3168027	+	2	Psest_2972	Psest_2973															
+operon 559	NC_019936.1	3169260	3169700	+	2	Psest_2976	Psest_2977															
+operon 560	NC_019936.1	3170557	3173747	-	3	Psest_2979	Psest_2980	Psest_2981														
+operon 561	NC_019936.1	3184618	3186032	-	2	Psest_2994	Psest_2995															
+operon 562	NC_019936.1	3189133	3191757	+	3	Psest_2999	Psest_3000	Psest_3001														
+operon 563	NC_019936.1	3193231	3202195	-	10	Psest_3004	Psest_3005	Psest_3006	Psest_3007	Psest_3008	Psest_3009	Psest_3010	Psest_3011	Psest_3012	Psest_3013							
+operon 564	NC_019936.1	3202320	3205397	-	3	Psest_3014	Psest_3015	Psest_3016														
+operon 565	NC_019936.1	3210350	3213768	-	5	Psest_3022	Psest_3023	Psest_3024	Psest_3025	Psest_3026												
+operon 566	NC_019936.1	3215184	3217145	-	3	Psest_3029	Psest_3030	Psest_3031														
+operon 567	NC_019936.1	3222853	3226720	+	4	Psest_3040	Psest_3041	Psest_3042	Psest_3043													
+operon 568	NC_019936.1	3231414	3232308	+	2	Psest_3048	Psest_3049															
+operon 569	NC_019936.1	3233292	3235558	-	2	Psest_3052	Psest_3053															
+operon 570	NC_019936.1	3235706	3238722	-	3	Psest_3054	Psest_3055	Psest_3056														
+operon 571	NC_019936.1	3238873	3239859	-	4	Psest_3057	Psest_3058	Psest_3059	Psest_3060													
+operon 572	NC_019936.1	3241086	3241441	-	2	Psest_3063	Psest_3064															
+operon 573	NC_019936.1	3246176	3249032	-	3	Psest_3070	Psest_3071	Psest_3072														
+operon 574	NC_019936.1	3265192	3266894	+	2	Psest_3084	Psest_3085															
+operon 575	NC_019936.1	3267317	3268464	+	2	Psest_3087	Psest_3088															
+operon 576	NC_019936.1	3268592	3272036	-	5	Psest_3089	Psest_3090	Psest_3091	Psest_3092	Psest_3093												
+operon 577	NC_019936.1	3272128	3274783	-	2	Psest_3094	Psest_3095															
+operon 578	NC_019936.1	3274975	3279015	-	5	Psest_3096	Psest_3097	Psest_3098	Psest_3099	Psest_3100												
+operon 579	NC_019936.1	3280950	3281643	-	2	Psest_3102	Psest_3103															
+operon 580	NC_019936.1	3289349	3293180	+	3	Psest_3112	Psest_3113	Psest_3114														
+operon 581	NC_019936.1	3293284	3296447	+	4	Psest_3115	Psest_3116	Psest_3117	Psest_3118													
+operon 582	NC_019936.1	3296788	3298493	-	2	Psest_3120	Psest_3121															
+operon 583	NC_019936.1	3299633	3301347	+	2	Psest_3123	Psest_3124															
+operon 584	NC_019936.1	3307275	3308826	-	3	Psest_3131	Psest_3132	Psest_3133														
+operon 585	NC_019936.1	3310648	3312751	+	2	Psest_3135	Psest_3136															
+operon 586	NC_019936.1	3312782	3315491	-	4	Psest_3137	Psest_3138	Psest_3139	Psest_3140													
+operon 587	NC_019936.1	3315600	3316725	+	2	Psest_3141	Psest_3142															
+operon 588	NC_019936.1	3319351	3321598	+	6	Psest_3145	Psest_3146	Psest_3147	Psest_3148	Psest_3149	Psest_3150											
+operon 589	NC_019936.1	3322667	3324540	+	2	Psest_3153	Psest_3154															
+operon 590	NC_019936.1	3332492	3335555	-	3	Psest_3160	Psest_3161	Psest_3162														
+operon 591	NC_019936.1	3340585	3341761	-	3	Psest_3168	Psest_3169	Psest_3170														
+operon 592	NC_019936.1	3348200	3350754	-	3	Psest_3176	Psest_3177	Psest_3178														
+operon 593	NC_019936.1	3353321	3360055	+	6	Psest_3181	Psest_3182	Psest_3183	Psest_3184	Psest_3185	Psest_3186											
+operon 594	NC_019936.1	3360061	3361360	-	3	Psest_3187	Psest_3188	Psest_3189														
+operon 595	NC_019936.1	3362987	3365093	-	2	Psest_3191	Psest_3192															
+operon 596	NC_019936.1	3366882	3367771	-	2	Psest_3194	Psest_3195															
+operon 597	NC_019936.1	3370354	3372481	+	3	Psest_3198	Psest_3199	Psest_3200														
+operon 598	NC_019936.1	3374062	3375852	+	3	Psest_3203	Psest_3204	Psest_3205														
+operon 599	NC_019936.1	3375929	3376557	+	2	Psest_3206	Psest_3207															
+operon 600	NC_019936.1	3377709	3379474	-	2	Psest_3209	Psest_3210															
+operon 601	NC_019936.1	3395845	3397896	+	2	Psest_3223	Psest_3224															
+operon 602	NC_019936.1	3398158	3399274	+	2	Psest_3226	Psest_3227															
+operon 603	NC_019936.1	3402408	3403480	-	3	Psest_3230	Psest_3231	Psest_3232														
+operon 604	NC_019936.1	3413646	3414428	+	2	Psest_3242	Psest_3243															
+operon 605	NC_019936.1	3416081	3419026	+	3	Psest_3246	Psest_3247	Psest_3248														
+operon 606	NC_019936.1	3419142	3420081	+	3	Psest_3249	Psest_3250	Psest_3251														
+operon 607	NC_019936.1	3421834	3438541	-	15	Psest_3254	Psest_3255	Psest_3256	Psest_3257	Psest_3258	Psest_3259	Psest_3260	Psest_3261	Psest_3262	Psest_3263	Psest_3264	Psest_3265	Psest_3266	Psest_3267	Psest_3268		
+operon 608	NC_019936.1	3440251	3442415	+	2	Psest_3271	Psest_3272															
+operon 609	NC_019936.1	3442523	3443688	+	2	Psest_3273	Psest_3274															
+operon 610	NC_019936.1	3443737	3447445	-	5	Psest_3275	Psest_3276	Psest_3277	Psest_3278	Psest_3279												
+operon 611	NC_019936.1	3447700	3448535	-	2	Psest_3280	Psest_3281															
+operon 612	NC_019936.1	3450781	3451580	-	2	Psest_3284	Psest_3285															
+operon 613	NC_019936.1	3451723	3455517	-	3	Psest_3286	Psest_3287	Psest_3288														
+operon 614	NC_019936.1	3456335	3458914	+	3	Psest_3290	Psest_3291	Psest_3292														
+operon 615	NC_019936.1	3459051	3461878	-	2	Psest_3293	Psest_3294															
+operon 616	NC_019936.1	3469392	3472926	-	6	Psest_3302	Psest_3303	Psest_3304	Psest_3305	Psest_3306	Psest_3307											
+operon 617	NC_019936.1	3473208	3476544	+	5	Psest_3308	Psest_3309	Psest_3310	Psest_3311	Psest_3312												
+operon 618	NC_019936.1	3478273	3480213	+	4	Psest_3314	Psest_3315	Psest_3316	Psest_3317													
+operon 619	NC_019936.1	3482322	3484612	-	2	Psest_3320	Psest_3321															
+operon 620	NC_019936.1	3484653	3489963	-	2	Psest_3322	Psest_3323															
+operon 621	NC_019936.1	3490779	3492217	-	2	Psest_3325	Psest_3326															
+operon 622	NC_019936.1	3493709	3496919	+	3	Psest_3328	Psest_3329	Psest_3330														
+operon 623	NC_019936.1	3497523	3499735	+	2	Psest_3332	Psest_3333															
+operon 624	NC_019936.1	3502771	3504618	-	2	Psest_3338	Psest_3339															
+operon 625	NC_019936.1	3508049	3510051	+	3	Psest_3342	Psest_3343	Psest_3344														
+operon 626	NC_019936.1	3516581	3518007	+	2	Psest_3348	Psest_3349															
+operon 627	NC_019936.1	3521685	3527265	-	3	Psest_3353	Psest_3354	Psest_3355														
+operon 628	NC_019936.1	3528504	3530816	+	4	Psest_3357	Psest_3358	Psest_3359	Psest_3360													
+operon 629	NC_019936.1	3532936	3534770	+	2	Psest_3364	Psest_3365															
+operon 630	NC_019936.1	3538587	3545999	+	7	Psest_3369	Psest_3370	Psest_3371	Psest_3372	Psest_3373	Psest_3374	Psest_3375										
+operon 631	NC_019936.1	3547117	3551870	-	4	Psest_3377	Psest_3378	Psest_3379	Psest_3380													
+operon 632	NC_019936.1	3554084	3555674	-	2	Psest_3383	Psest_3384															
+operon 633	NC_019936.1	3557165	3557769	-	2	Psest_3386	Psest_3387															
+operon 634	NC_019936.1	3560182	3562206	-	3	Psest_3391	Psest_3392	Psest_3393														
+operon 635	NC_019936.1	3575222	3579753	+	2	Psest_3406	Psest_3407															
+operon 636	NC_019936.1	3580111	3582089	+	2	Psest_3409	Psest_3410															
+operon 637	NC_019936.1	3582208	3583358	-	2	Psest_3411	Psest_3412															
+operon 638	NC_019936.1	3584749	3588752	-	4	Psest_3415	Psest_3416	Psest_3417	Psest_3418													
+operon 639	NC_019936.1	3588941	3590157	+	2	Psest_3419	Psest_3420															
+operon 640	NC_019936.1	3592950	3594223	+	2	Psest_3425	Psest_3426															
+operon 641	NC_019936.1	3596323	3601800	-	4	Psest_3429	Psest_3430	Psest_3431	Psest_3432													
+operon 642	NC_019936.1	3603802	3607544	+	4	Psest_3434	Psest_3435	Psest_3436	Psest_3437													
+operon 643	NC_019936.1	3611259	3613393	-	2	Psest_3441	Psest_3442															
+operon 644	NC_019936.1	3614927	3618620	-	3	Psest_3444	Psest_3445	Psest_3446														
+operon 645	NC_019936.1	3618819	3621015	-	3	Psest_3447	Psest_3448	Psest_3449														
+operon 646	NC_019936.1	3627041	3627980	+	2	Psest_3454	Psest_3455															
+operon 647	NC_019936.1	3628078	3630092	+	4	Psest_3456	Psest_3457	Psest_3458	Psest_3459													
+operon 648	NC_019936.1	3630106	3634048	-	4	Psest_3460	Psest_3461	Psest_3462	Psest_3463													
+operon 649	NC_019936.1	3634130	3636080	-	2	Psest_3464	Psest_3465															
+operon 650	NC_019936.1	3641094	3648149	+	8	Psest_3471	Psest_3472	Psest_3473	Psest_3474	Psest_3475	Psest_3476	Psest_3477	Psest_3478									
+operon 651	NC_019936.1	3648205	3649979	-	2	Psest_3479	Psest_3480															
+operon 652	NC_019936.1	3652422	3659269	-	4	Psest_3483	Psest_3484	Psest_3485	Psest_3486													
+operon 653	NC_019936.1	3659373	3662950	-	3	Psest_3487	Psest_3488	Psest_3489														
+operon 654	NC_019936.1	3663192	3665781	+	2	Psest_3490	Psest_3491															
+operon 655	NC_019936.1	3670673	3672141	-	2	Psest_3498	Psest_3499															
+operon 656	NC_019936.1	3672842	3675048	+	2	Psest_3501	Psest_3502															
+operon 657	NC_019936.1	3685463	3689776	-	4	Psest_3510	Psest_3511	Psest_3512	Psest_3513													
+operon 658	NC_019936.1	3703148	3705624	+	2	Psest_3523	Psest_3524															
+operon 659	NC_019936.1	3711229	3713829	+	4	Psest_3531	Psest_3532	Psest_3533	Psest_3534													
+operon 660	NC_019936.1	3714376	3721178	+	4	Psest_3537	Psest_3538	Psest_3539	Psest_3540													
+operon 661	NC_019936.1	3723544	3725365	-	3	Psest_3542	Psest_3543	Psest_3544														
+operon 662	NC_019936.1	3725487	3730517	-	7	Psest_3545	Psest_3546	Psest_3547	Psest_3548	Psest_3549	Psest_3550	Psest_3551										
+operon 663	NC_019936.1	3730904	3732468	-	2	Psest_3552	Psest_3553															
+operon 664	NC_019936.1	3732581	3734194	+	3	Psest_3554	Psest_3555	Psest_3556														
+operon 665	NC_019936.1	3734224	3735658	-	2	Psest_3557	Psest_3558															
+operon 666	NC_019936.1	3737219	3740350	+	4	Psest_3561	Psest_3562	Psest_3563	Psest_3564													
+operon 667	NC_019936.1	3740396	3745293	-	6	Psest_3565	Psest_3566	Psest_3567	Psest_3568	Psest_3569	Psest_3570											
+operon 668	NC_019936.1	3746226	3748531	-	3	Psest_3572	Psest_3573	Psest_3574														
+operon 669	NC_019936.1	3756126	3758996	-	5	Psest_3579	Psest_3580	Psest_3581	Psest_3582	Psest_3583												
+operon 670	NC_019936.1	3759126	3763024	-	8	Psest_3585	Psest_3586	Psest_3587	Psest_3588	Psest_3589	Psest_3590	Psest_3591	Psest_3592									
+operon 671	NC_019936.1	3763204	3769800	-	15	Psest_3593	Psest_3594	Psest_3595	Psest_3596	Psest_3597	Psest_3598	Psest_3599	Psest_3600	Psest_3601	Psest_3602	Psest_3603	Psest_3604	Psest_3605	Psest_3606	Psest_3607		
+operon 672	NC_019936.1	3769951	3774266	-	4	Psest_3608	Psest_3609	Psest_3610	Psest_3611													
+operon 673	NC_019936.1	3774406	3782741	-	2	Psest_3612	Psest_3613															
+operon 674	NC_019936.1	3782955	3783899	-	2	Psest_3615	Psest_3616															
+operon 675	NC_019936.1	3784092	3785218	-	2	Psest_3617	Psest_3618															
+operon 676	NC_019936.1	3785328	3786239	-	2	Psest_3619	Psest_3620															
+operon 677	NC_019936.1	3788114	3790501	-	3	Psest_3626	Psest_3627	Psest_3628														
+operon 678	NC_019936.1	3797765	3800268	+	2	Psest_3636	Psest_3637															
+operon 679	NC_019936.1	3807488	3811453	-	4	Psest_3647	Psest_3648	Psest_3649	Psest_3650													
+operon 680	NC_019936.1	3811633	3813005	-	2	Psest_3651	Psest_3652															
+operon 681	NC_019936.1	3814549	3816855	-	2	Psest_3654	Psest_3655															
+operon 682	NC_019936.1	3820572	3823615	-	2	Psest_3659	Psest_3660															
+operon 683	NC_019936.1	3824733	3827228	-	3	Psest_3662	Psest_3663	Psest_3664														
+operon 684	NC_019936.1	3827319	3831399	+	2	Psest_3665	Psest_3666															
+operon 685	NC_019936.1	3832617	3834978	+	4	Psest_3668	Psest_3669	Psest_3670	Psest_3671													
+operon 686	NC_019936.1	3835249	3841347	+	4	Psest_3672	Psest_3673	Psest_3674	Psest_3675													
+operon 687	NC_019936.1	3841354	3842240	-	2	Psest_3676	Psest_3677															
+operon 688	NC_019936.1	3848805	3851964	+	2	Psest_3684	Psest_3685															
+operon 689	NC_019936.1	3852668	3869455	+	19	Psest_3687	Psest_3688	Psest_3689	Psest_3690	Psest_3691	Psest_3692	Psest_3693	Psest_3694	Psest_3695	Psest_3696	Psest_3697	Psest_3698	Psest_3699	Psest_3700	Psest_3701		
+operon 690	NC_019936.1	3879640	3887786	-	8	Psest_3712	Psest_3713	Psest_3714	Psest_3715	Psest_3716	Psest_3717	Psest_3718	Psest_3719									
+operon 691	NC_019936.1	3891887	3892917	-	2	Psest_3722	Psest_3723															
+operon 692	NC_019936.1	3895449	3897854	+	2	Psest_3725	Psest_3726															
+operon 693	NC_019936.1	3904154	3907403	-	2	Psest_3732	Psest_3733															
+operon 694	NC_019936.1	3908990	3910092	-	2	Psest_3736	Psest_3737															
+operon 695	NC_019936.1	3910405	3912893	-	2	Psest_3739	Psest_3740															
+operon 696	NC_019936.1	3915683	3919800	-	4	Psest_3745	Psest_3746	Psest_3747	Psest_3748													
+operon 697	NC_019936.1	3919956	3921757	-	2	Psest_3749	Psest_3750															
+operon 698	NC_019936.1	3921965	3926449	+	6	Psest_3751	Psest_3752	Psest_3753	Psest_3754	Psest_3755	Psest_3756											
+operon 699	NC_019936.1	3931770	3936364	+	6	Psest_3763	Psest_3764	Psest_3765	Psest_3766	Psest_3767	Psest_3768											
+operon 700	NC_019936.1	3936432	3937265	-	2	Psest_3769	Psest_3770															
+operon 701	NC_019936.1	3938735	3940428	-	2	Psest_3772	Psest_3773															
+operon 702	NC_019936.1	3940825	3942618	+	2	Psest_3774	Psest_3775															
+operon 703	NC_019936.1	3949370	3952922	-	3	Psest_3780	Psest_3781	Psest_3782														
+operon 704	NC_019936.1	3953083	3954674	-	2	Psest_3783	Psest_3784															
+operon 705	NC_019936.1	3954861	3958613	+	3	Psest_3785	Psest_3786	Psest_3787														
+operon 706	NC_019936.1	3961253	3962900	-	2	Psest_3792	Psest_3793															
+operon 707	NC_019936.1	3971548	3973287	+	2	Psest_3801	Psest_3802															
+operon 708	NC_019936.1	3974104	3975769	+	2	Psest_3804	Psest_3805															
+operon 709	NC_019936.1	3975811	3979302	+	2	Psest_3806	Psest_3807															
+operon 710	NC_019936.1	3981037	3982292	-	2	Psest_3809	Psest_3810															
+operon 711	NC_019936.1	3983228	3984336	-	2	Psest_3812	Psest_3813															
+operon 712	NC_019936.1	3984488	3986041	+	2	Psest_3814	Psest_3815															
+operon 713	NC_019936.1	3989118	3990118	-	2	Psest_3819	Psest_3820															
+operon 714	NC_019936.1	3995080	3998080	-	4	Psest_3824	Psest_3825	Psest_3826	Psest_3827													
+operon 715	NC_019936.1	4003878	4005264	-	2	Psest_3834	Psest_3835															
+operon 716	NC_019936.1	4007300	4009905	-	2	Psest_3837	Psest_3838															
+operon 717	NC_019936.1	4009979	4013763	-	3	Psest_3839	Psest_3840	Psest_3841														
+operon 718	NC_019936.1	4014883	4016374	+	2	Psest_3843	Psest_3844															
+operon 719	NC_019936.1	4024339	4028911	+	5	Psest_3852	Psest_3853	Psest_3854	Psest_3855	Psest_3856												
+operon 720	NC_019936.1	4030697	4032290	-	2	Psest_3859	Psest_3860															
+operon 721	NC_019936.1	4033213	4035990	-	2	Psest_3862	Psest_3863															
+operon 722	NC_019936.1	4036859	4038822	-	2	Psest_3865	Psest_3866															
+operon 723	NC_019936.1	4038987	4040104	+	2	Psest_3867	Psest_3868															
+operon 724	NC_019936.1	4040138	4044224	-	4	Psest_3869	Psest_3870	Psest_3871	Psest_3872													
+operon 725	NC_019936.1	4050552	4051952	+	2	Psest_3879	Psest_3880															
+operon 726	NC_019936.1	4053204	4055275	+	2	Psest_3883	Psest_3884															
+operon 727	NC_019936.1	4055808	4062575	-	8	Psest_3886	Psest_3887	Psest_3888	Psest_3889	Psest_3890	Psest_3891	Psest_3892	Psest_3893									
+operon 728	NC_019936.1	4062838	4065793	+	3	Psest_3894	Psest_3895	Psest_3896														
+operon 729	NC_019936.1	4066331	4067649	-	2	Psest_3898	Psest_3899															
+operon 730	NC_019936.1	4067851	4071295	+	2	Psest_3900	Psest_3901															
+operon 731	NC_019936.1	4071971	4075885	-	3	Psest_3903	Psest_3904	Psest_3905														
+operon 732	NC_019936.1	4079714	4082576	-	2	Psest_3911	Psest_3912															
+operon 733	NC_019936.1	4089999	4092325	-	2	Psest_3922	Psest_3923															
+operon 734	NC_019936.1	4101306	4102486	+	2	Psest_3929	Psest_3930															
+operon 735	NC_019936.1	4102656	4105171	+	2	Psest_3931	Psest_3932															
+operon 736	NC_019936.1	4108791	4111183	+	3	Psest_3936	Psest_3937	Psest_3938														
+operon 737	NC_019936.1	4111860	4115882	+	6	Psest_3940	Psest_3941	Psest_3942	Psest_3943	Psest_3944	Psest_3945											
+operon 738	NC_019936.1	4115949	4117881	+	3	Psest_3946	Psest_3947	Psest_3948														
+operon 739	NC_019936.1	4118489	4119897	-	2	Psest_3950	Psest_3951															
+operon 740	NC_019936.1	4120414	4122921	-	4	Psest_3953	Psest_3954	Psest_3955	Psest_3956													
+operon 741	NC_019936.1	4126860	4128241	-	2	Psest_3960	Psest_3961															
+operon 742	NC_019936.1	4133486	4138174	-	4	Psest_3966	Psest_3967	Psest_3968	Psest_3969													
+operon 743	NC_019936.1	4139368	4144787	+	6	Psest_3971	Psest_3972	Psest_3973	Psest_3974	Psest_3975	Psest_3976											
+operon 744	NC_019936.1	4148716	4151596	-	3	Psest_3981	Psest_3982	Psest_3983														
+operon 745	NC_019936.1	4161452	4162821	+	2	Psest_3992	Psest_3993															
+operon 746	NC_019936.1	4162843	4164985	-	2	Psest_3994	Psest_3995															
+operon 747	NC_019936.1	4165211	4167936	+	2	Psest_3996	Psest_3997															
+operon 748	NC_019936.1	4171605	4174103	-	2	Psest_4000	Psest_4001															
+operon 749	NC_019936.1	4174233	4176214	-	2	Psest_4002	Psest_4003															
+operon 750	NC_019936.1	4182433	4188023	+	3	Psest_4008	Psest_4009	Psest_4010														
+operon 751	NC_019936.1	4189511	4191425	+	2	Psest_4012	Psest_4013															
+operon 752	NC_019936.1	4193062	4194979	+	2	Psest_4016	Psest_4017															
+operon 753	NC_019936.1	4196855	4199574	+	4	Psest_4020	Psest_4021	Psest_4022	Psest_4023													
+operon 754	NC_019936.1	4200359	4202990	+	3	Psest_4024	Psest_4025	Psest_4026														
+operon 755	NC_019936.1	4203272	4205837	-	4	Psest_4028	Psest_4029	Psest_4030	Psest_4031													
+operon 756	NC_019936.1	4206331	4207761	+	2	Psest_4032	Psest_4033															
+operon 757	NC_019936.1	4210401	4211508	-	2	Psest_4037	Psest_4038															
+operon 758	NC_019936.1	4212104	4212996	-	2	Psest_4039	Psest_4040															
+operon 759	NC_019936.1	4213038	4214105	-	3	Psest_4041	Psest_4042	Psest_4043														
+operon 760	NC_019936.1	4217687	4223388	-	4	Psest_4045	Psest_4046	Psest_4047	Psest_4048													
+operon 761	NC_019936.1	4224947	4226764	-	3	Psest_4051	Psest_4052	Psest_4053														
+operon 762	NC_019936.1	4226880	4231010	-	5	Psest_4054	Psest_4055	Psest_4056	Psest_4057	Psest_4058												
+operon 763	NC_019936.1	4232970	4235681	+	3	Psest_4061	Psest_4062	Psest_4063														
+operon 764	NC_019936.1	4236774	4238003	-	2	Psest_4065	Psest_4066															
+operon 765	NC_019936.1	4238056	4239477	-	2	Psest_4067	Psest_4068															
+operon 766	NC_019936.1	4242839	4247566	-	2	Psest_4071	Psest_4072															
+operon 767	NC_019936.1	4248808	4251580	+	2	Psest_4074	Psest_4075															
+operon 768	NC_019936.1	4256034	4258990	-	4	Psest_4080	Psest_4081	Psest_4082	Psest_4083													
+operon 769	NC_019936.1	4259187	4262421	-	2	Psest_4084	Psest_4085															
+operon 770	NC_019936.1	4266881	4269148	+	3	Psest_4090	Psest_4091	Psest_4092														
+operon 771	NC_019936.1	4276731	4280080	+	2	Psest_4098	Psest_4099															
+operon 772	NC_019936.1	4281218	4282637	-	2	Psest_4101	Psest_4102															
+operon 773	NC_019936.1	4283746	4288439	+	3	Psest_4104	Psest_4105	Psest_4106														
+operon 774	NC_019936.1	4288570	4292806	+	3	Psest_4107	Psest_4108	Psest_4109														
+operon 775	NC_019936.1	4295116	4295994	-	2	Psest_4111	Psest_4112															
+operon 776	NC_019936.1	4296137	4296730	+	2	Psest_4113	Psest_4114															
+operon 777	NC_019936.1	4297106	4298104	+	4	Psest_4115	Psest_4116	Psest_4117	Psest_4118													
+operon 778	NC_019936.1	4298256	4301272	+	3	Psest_4119	Psest_4120	Psest_4121														
+operon 779	NC_019936.1	4301420	4303740	+	2	Psest_4122	Psest_4123															
+operon 780	NC_019936.1	4304385	4305220	-	2	Psest_4125	Psest_4126															
+operon 781	NC_019936.1	4306591	4308944	-	2	Psest_4128	Psest_4129															
+operon 782	NC_019936.1	4310657	4313795	+	2	Psest_4131	Psest_4132															
+operon 783	NC_019936.1	4314111	4315711	-	2	Psest_4133	Psest_4134															
+operon 784	NC_019936.1	4316551	4320109	+	3	Psest_4136	Psest_4137	Psest_4138														
+operon 785	NC_019936.1	4320072	4324012	-	2	Psest_4139	Psest_4140															
+operon 786	NC_019936.1	4325340	4334358	-	9	Psest_4142	Psest_4143	Psest_4144	Psest_4145	Psest_4146	Psest_4147	Psest_4148	Psest_4149	Psest_4150								
+operon 787	NC_019936.1	4334409	4335867	-	3	Psest_4151	Psest_4152	Psest_4153														
+operon 788	NC_019936.1	4338133	4339442	+	2	Psest_4156	Psest_4157															
+operon 789	NC_019936.1	4339497	4345650	-	8	Psest_4158	Psest_4159	Psest_4160	Psest_4161	Psest_4162	Psest_4163	Psest_4164	Psest_4165									
+operon 790	NC_019936.1	4346122	4346834	-	2	Psest_4166	Psest_4167															
+operon 791	NC_019936.1	4346967	4353913	-	7	Psest_4168	Psest_4169	Psest_4170	Psest_4171	Psest_4172	Psest_4173	Psest_4174										
+operon 792	NC_019936.1	4354321	4361364	+	8	Psest_4175	Psest_4176	Psest_4177	Psest_4178	Psest_4179	Psest_4180	Psest_4181	Psest_4182									
+operon 793	NC_019936.1	4362291	4364683	+	2	Psest_4185	Psest_4186															
+operon 794	NC_019936.1	4365847	4367599	-	2	Psest_4188	Psest_4189															
+operon 795	NC_019936.1	4368744	4371741	+	2	Psest_4191	Psest_4192															
+operon 796	NC_019936.1	4373286	4379277	-	8	Psest_4194	Psest_4195	Psest_4196	Psest_4197	Psest_4198	Psest_4199	Psest_4200	Psest_4201									
+operon 797	NC_019936.1	4381470	4384362	+	3	Psest_4203	Psest_4204	Psest_4205														
+operon 798	NC_019936.1	4387919	4390531	+	3	Psest_4211	Psest_4212	Psest_4213														
+operon 799	NC_019936.1	4390622	4396873	-	4	Psest_4214	Psest_4215	Psest_4216	Psest_4217													
+operon 800	NC_019936.1	4400926	4402188	+	2	Psest_4220	Psest_4221															
+operon 801	NC_019936.1	4408163	4408566	-	2	Psest_4226	Psest_4227															
+operon 802	NC_019936.1	4414867	4417218	-	2	Psest_4233	Psest_4234															
+operon 803	NC_019936.1	4424454	4439583	+	12	Psest_4241	Psest_4242	Psest_4243	Psest_4244	Psest_4245	Psest_4246	Psest_4247	Psest_4248	Psest_4249	Psest_4250	Psest_4251	Psest_4252					
+operon 804	NC_019936.1	4439748	4442783	+	2	Psest_4253	Psest_4254															
+operon 805	NC_019936.1	4442928	4446419	+	4	Psest_4255	Psest_4256	Psest_4257	Psest_4258													
+operon 806	NC_019936.1	4446537	4451480	+	3	Psest_4259	Psest_4260	Psest_4261														
+operon 807	NC_019936.1	4451682	4455068	+	4	Psest_4262	Psest_4263	Psest_4264	Psest_4265													
+operon 808	NC_019936.1	4455196	4458392	+	2	Psest_4266	Psest_4267															
+operon 809	NC_019936.1	4459994	4461900	+	2	Psest_4269	Psest_4270															
+operon 810	NC_019936.1	4465207	4471121	+	5	Psest_4275	Psest_4276	Psest_4277	Psest_4278	Psest_4279												
+operon 811	NC_019936.1	4471324	4474267	-	3	Psest_4280	Psest_4281	Psest_4282														
+operon 812	NC_019936.1	4477085	4480675	-	3	Psest_4285	Psest_4286	Psest_4287														
+operon 813	NC_019936.1	4480916	4482998	+	2	Psest_4288	Psest_4289															
+operon 814	NC_019936.1	4483131	4485629	+	3	Psest_4290	Psest_4291	Psest_4292														
+operon 815	NC_019936.1	4491792	4496220	+	3	Psest_4297	Psest_4298	Psest_4299														
+operon 816	NC_019936.1	4496349	4503249	+	5	Psest_4300	Psest_4301	Psest_4302	Psest_4303	Psest_4304												
+operon 817	NC_019936.1	4507590	4510161	+	4	Psest_4308	Psest_4309	Psest_4310	Psest_4311													
+operon 818	NC_019936.1	4514294	4515978	+	2	Psest_4314	Psest_4315															
+operon 819	NC_019936.1	4519470	4522578	+	3	Psest_4320	Psest_4321	Psest_4322														
+operon 820	NC_019936.1	4526063	4530403	+	4	Psest_4326	Psest_4327	Psest_4328	Psest_4329													
+operon 821	NC_019936.1	4530682	4531972	+	2	Psest_4331	Psest_4332															
+operon 822	NC_019936.1	4532025	4534654	+	3	Psest_4333	Psest_4334	Psest_4335														
+operon 823	NC_019936.1	4534738	4538487	-	2	Psest_4336	Psest_4337															
+operon 824	NC_019936.1	4538588	4540065	-	2	Psest_4338	Psest_4339															
+operon 825	NC_019936.1	4543328	4549091	+	4	Psest_4345	Psest_4346	Psest_4347	Psest_4348													
+operon 826	NC_019936.1	4549153	4551788	-	2	Psest_4349	Psest_4350															
+operon 827	NC_019936.1	4553588	4560582	-	9	Psest_4353	Psest_4354	Psest_4355	Psest_4356	Psest_4357	Psest_4358	Psest_4359	Psest_4360	Psest_4361								
+operon 828	NC_019936.1	4560773	4565002	-	4	Psest_4362	Psest_4363	Psest_4364	Psest_4365													
+operon 829	NC_019936.1	4565357	4571032	-	7	Psest_4366	Psest_4367	Psest_4368	Psest_4369	Psest_4370	Psest_4371	Psest_4372										
+operon 830	NC_019936.1	4571307	4575054	-	4	Psest_4373	Psest_4374	Psest_4375	Psest_4376													
