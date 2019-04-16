@@ -18,5 +18,6 @@ class Task:
                 self.samples[row[0]]['treatment'] = row[4]
                 self.samples[row[0]]['control'] = row[5]
                 self.samples[row[0]]['fastq'] = row[6]
+                self.samples[row[0]]['info'] = {}
             
     

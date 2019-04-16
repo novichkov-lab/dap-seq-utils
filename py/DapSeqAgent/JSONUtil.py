@@ -3,8 +3,6 @@ import os,json
 from DapSeqAgent.MacsParser.Peak import Peak
 from DapSeqAgent.Task import Task
 
-
-
 def decode_object(o):
     if '__Peak__' in o:
         a = Peak()
@@ -20,6 +18,14 @@ def decode_task(o):
     if '__Peak__' in o:
         a = Peak()
         a.__dict__.update(o['__Peak__'])
+        return a
+    elif '__Site__' in o:
+        a = Site()
+        a.__dict__.update(o['__Site__'])
+        return a
+    elif '__Motif__' in o:
+        a = Motif()
+        a.__dict__.update(o['__Motif__'])
         return a
     elif '__Task__' in o:
         a = Task()

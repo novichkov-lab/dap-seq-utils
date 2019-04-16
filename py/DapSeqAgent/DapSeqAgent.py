@@ -5,8 +5,9 @@ from subprocess import Popen, PIPE, CalledProcessError
 from DapSeqAgent.ReferenceData.ReferenceLibrary import ReferenceLibrary
 from DapSeqAgent.Task import Task
 from DapSeqAgent.MacsParser.MacsParser import MacsParser
+from DapSeqAgent.MemeParser.MemeParser import MemeParser
 from DapSeqAgent.JSONUtil import export_task,import_task
-from DapSeqAgent.Report import generate_text_report
+from DapSeqAgent.Report import generate_text_report, generate_mapping_report
 
 class DapSeqAgent:
     
@@ -36,18 +37,23 @@ class DapSeqAgent:
             os.mkdir(os.path.join(self.outdir, 'bam'))
         if not os.path.isdir(os.path.join(self.outdir, 'peaks')):
             os.mkdir(os.path.join(self.outdir, 'peaks'))
+        if not os.path.isdir(os.path.join(self.outdir, 'motifs')):
+            os.mkdir(os.path.join(self.outdir, 'motifs'))
         # Try to load task JSON
         if os.path.exists(os.path.join(self.outdir, 'task.json')):
             self.task = import_task(os.path.join(self.outdir, 'task.json'))
             self.task.load_task()
         
-        #~ # Run QC and mapping
-        #~ for sample in self.task.samples.keys():
-            
-            #~ filtered_fastq = run_trimmomatic_se(self.task.samples[sample]['fastq'], self.outdir)
-            #~ #trimmed_fastq = run_read_trimming(self.task.samples[sample]['fastq'], os.path.join(self.outdir, 'fastq'))
-            #~ #filtered_fastq = run_read_filtering(trimmed_fastq, os.path.join(self.outdir, 'focus'))
-            #~ self.map_reads(sample, filtered_fastq)
+        # Run QC and mapping
+        for sample in self.task.samples.keys():
+            filtered_fastq, trimmomatic_log = run_trimmomatic_se(self.task.samples[sample]['fastq'], self.outdir)
+            if trimmomatic_log:
+                self.task.samples[sample]['info']['trimmomatic_log'] = trimmomatic_log
+            #trimmed_fastq = run_read_trimming(self.task.samples[sample]['fastq'], os.path.join(self.outdir, 'fastq'))
+            #filtered_fastq = run_read_filtering(trimmed_fastq, os.path.join(self.outdir, 'focus'))
+            if 'average_read_length' not in self.task.samples[sample]['info']:
+                self.task.samples[sample]['info']['average_read_length'] = get_average_length(filtered_fastq)
+            self.map_reads(sample, filtered_fastq)
             
         # Run peak calling
         for sample in self.task.samples.keys():
@@ -63,6 +69,9 @@ class DapSeqAgent:
             macs2_outfile = outfile + '_peaks.xls'
             parser = MacsParser(macs2_outfile, protein=self.task.samples[sample]['protein'])
             self.task.samples[sample]['peaks'] = parser.peaks
+            if len(self.task.samples[sample]['peaks']) > 1:
+                self.task.samples[sample]['motifs'] = self.predict_motifs(sample, self.task.samples[sample]['peaks'])
+
         export_task(self.task, os.path.join(self.outdir, 'task.json'))
         self.generate_report()
     
@@ -74,10 +83,13 @@ class DapSeqAgent:
             for peak in self.task.samples[sample]['peaks']:
                 peak.annotate_peak(self.ref_libraries[self.task.samples[sample]['ref_library']])
         generate_text_report(self.task, outfile)
+        generate_mapping_report(self.task, os.path.join(self.outdir,'mapping_report.tsv'))
         
         
     def map_reads(self, sample, infile):
         if not os.path.exists(infile):
+            return
+        if os.path.exists(os.path.join(self.outdir, 'bam', sample + '.sorted.bam')):
             return
         if infile.endswith('.gz'):
             fastq = infile[:-3]
@@ -119,11 +131,11 @@ class DapSeqAgent:
         for line in bowtie_log:
             if line.startswith('# reads processed'):
                 k,v = line[2:].split(': ')
-                self.task.samples[sample][k] = int(v)
+                self.task.samples[sample]['info'][k] = int(v)
             elif line.startswith('# reads with at least one reported alignment'):
                 k,v = line[2:].split(': ')
                 v1,v2 = v.split(' (')
-                self.task.samples[sample]['reads aligned'] = int(v1)
+                self.task.samples[sample]['info']['reads aligned'] = int(v1)
                 
 
         if infile.endswith('.gz'):
@@ -155,6 +167,28 @@ class DapSeqAgent:
         
         os.remove(bam_file)
         print('Mapping finished:', sample)
+        
+    def predict_motifs(self, sample, peaks):
+        temp_fastafile = os.path.join(self.outdir, 'temp.fasta')
+        outfile = os.path.join(self.outdir, 'motifs', sample + '_meme.txt')
+        # Generate fasta file with peak sequences
+        peaks_dict = {}
+        peak_index = 0
+        with open(temp_fastafile, 'w') as of:
+            for peak in peaks:
+                peak_sequence = self.ref_libraries[self.task.samples[sample]['ref_library']].get_sequence(peak.sequence_id,peak.start, peak.end)
+                peak_index += 1
+                peaks_dict[str(peak_index)] = peak
+                if len(peak_sequence) > 12:
+                    of.write('>' + str(peak_index) + '\n')
+                    of.write(peak_sequence + '\n')
+        # Run MEME
+        run_meme(temp_fastafile, outfile, self.outdir)
+        # Parse MEME output
+        meme_parser = MemeParser(outfile, peaks_dict)
+        os.remove(temp_fastafile)
+        return meme_parser.motifs
+            
             
 def run_trimmomatic_se(infile, outdir):
     print('Run TrimmomaticSE for ', infile)
@@ -166,7 +200,7 @@ def run_trimmomatic_se(infile, outdir):
         outfile = os.path.join(fastq_outdir, fastq_basename + '.trimmed')
     if os.path.exists(outfile):
 #        run_focus(outfile, os.path.join(outdir, 'focus'))
-        return outfile
+        return outfile, None
     process_args = ['TrimmomaticSE',
                     '-threads',
                     '12',
@@ -179,14 +213,16 @@ def run_trimmomatic_se(infile, outdir):
                     'SLIDINGWINDOW:4:14',
                     'MINLEN:50'
                     ]
+    log = []
     with Popen(process_args, stdout=PIPE, bufsize=1, universal_newlines=True) as p:
         for line in p.stdout:
             print(line, end='')
+            log.append(line)
     if p.returncode != 0:
         raise CalledProcessError(p.returncode, p.args)
     print ('TrimmomaticSE finished')
     run_focus(outfile, os.path.join(outdir, 'focus'))
-    return outfile
+    return outfile, log
     
     
 
@@ -270,7 +306,7 @@ def run_focus(infile, outdir):
     
 def run_macs2 (bam, control_bam, size, outfile):
     print('Starting MACS2')
-    macs2_args = ['macs2',
+    process_args = ['macs2',
                     'callpeak',
                     '-t',
                     bam,
@@ -289,11 +325,64 @@ def run_macs2 (bam, control_bam, size, outfile):
                     '--nomodel',
                     '--keep-dup=auto'
                     ]
-    with Popen(macs2_args, stdout=PIPE, bufsize=1, universal_newlines=True) as p:
+    with Popen(process_args, stdout=PIPE, bufsize=1, universal_newlines=True) as p:
         for line in p.stdout:
             print(line, end='')
     if p.returncode != 0:
         raise CalledProcessError(p.returncode, p.args)
     print ('MACS2 finished')
 
+def run_meme (temp_fastafile, outfile, output_dir):
+    if os.path.exists(outfile):
+        return
+    print('Running MEME')
+    ret_val = []
+    process_args = ['meme',
+                    temp_fastafile,
+                    '-o',
+                    output_dir,
+                    '-text',
+                    '-dna',
+                    '-mod',
+                    'anr',
+                    '-nmotifs',
+                    '1',
+                    '-minw',
+                    '12',
+                    '-maxw',
+                    '30',
+                    '-revcomp',
+                    '-pal',
+                    '-maxsize',
+                    '1000000'
+                    ]
+    with Popen(process_args, stdout=PIPE, bufsize=1, universal_newlines=True) as p:
+        for line in p.stdout:
+            ret_val.append(line)
+            print(line, end='')
+    if p.returncode != 0:
+        raise CalledProcessError(p.returncode, p.args)
+    with open(outfile, 'w') as of:
+        of.write(''.join(ret_val))
+    print ('MEME finished')
 
+def get_average_length(fastq):
+    read_count = 0
+    sequence_length = 0
+    line_counter = 0
+    if fastq.endswith('.gz'):
+        fh = gzip.open(fastq, 'rt')
+    else:
+        fh = open(fastq, 'r')
+    for line in fh:
+        if line_counter == 1:
+            read_count += 1
+            sequence_length += len(line) - 1
+        line_counter += 1
+        if line_counter == 4:
+            line_counter = 0
+    fh.close()
+    if read_count > 0:
+        return sequence_length/read_count
+    else:
+        return 0.0

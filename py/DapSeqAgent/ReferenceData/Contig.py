@@ -7,13 +7,17 @@ class Contig:
         self.operons = []
         self.genes = []
         self.utrs = []
+        self.sequence = ''
 
     def add_gene(self,gene):
         self.genes.append(gene)
     
     def add_operon(self,operon):
         self.operons.append(operon)
-        
+
+    def add_utr(self,utr):
+        self.utrs.append(utr)
+
     def calculate_utrs(self):
         if len(self.genes) == 0:
             print('No genes in contig', self.contig_id, 'UTR search skipped')

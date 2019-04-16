@@ -2,6 +2,7 @@
 import sys,argparse
 from DapSeqAgent.DapSeqAgent import DapSeqAgent
 from DapSeqAgent.JSONUtil import import_task
+from DapSeqAgent.Report import generate_mapping_report
 
 def get_args():
     desc = '''This program runs DAP-seq pipeline.'''
@@ -22,6 +23,7 @@ def main():
         agent.task = import_task(os.path.join(args.outdir, 'task.json'))
         agent.task.load_task()
         agent.generate_report()
+        generate_mapping_report(task, os.path.join(args.outdir,'mapping_report.tsv'))
     print('Done!')
 
 if __name__=='__main__':
